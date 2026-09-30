@@ -2,10 +2,10 @@ import mongoose from 'mongoose';
 import { COLLECTION_MODELS } from '../server/models/index.js';
 import { SEED_DATA } from '../server/data_bundle.js';
 
-const uri = 'mongodb+srv://scre_admin:Scre%40123456@cluster0.fbbdcja.mongodb.net/weldor_industrial?retryWrites=true&w=majority&appName=Cluster0';
+const uri = 'mongodb+srv://weldor_user:Weldor2026@cluster0.fbbdcja.mongodb.net/weldor_industrial?retryWrites=true&w=majority';
 
 async function seed() {
-  console.log('Connecting to new MongoDB Atlas database...');
+  console.log('Connecting to MongoDB Atlas with weldor_user...');
   await mongoose.connect(uri, { serverSelectionTimeoutMS: 8000 });
   console.log('🍃 Connected! Seeding all collections...');
 
