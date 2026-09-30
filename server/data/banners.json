@@ -5,7 +5,7 @@
     "autoplayDurationSec": 6,
     "badge": "EARTH METAL INDUSTRIES — WELDOR BRAND",
     "bgImageUrl": "/images/banners/hero-banner-welding-torches.jpg",
-    "createdAt": "2026-09-30T14:27:16.599Z",
+    "createdAt": "2026-09-30T16:35:28.361Z",
     "description": "Manufactured at our Jamnagar engineering plant, Weldor delivers heavy-duty 24KD/36KD MIG torches, 700 Bar & 300 Bar gas pressure regulators, and precision CNC cutting torches.",
     "displayOrder": 1,
     "features": [
@@ -40,7 +40,7 @@
     "subtitle": "ISO 9001:2015 Certified OEM & Global Exporter | Make in India",
     "title": "Precision In Every Spark.",
     "transitionEffect": "zoom",
-    "updatedAt": "2026-09-30T14:51:01.866Z"
+    "updatedAt": "2026-09-30T16:43:12.321Z"
   },
   {
     "id": "ban-weldor-02",
@@ -48,7 +48,7 @@
     "autoplayDurationSec": 6,
     "badge": "FORGED BRASS INDUSTRIAL REGULATORS",
     "bgImageUrl": "/images/banners/hero-banner-gas-regulators.jpg",
-    "createdAt": "2026-09-30T14:27:16.696Z",
+    "createdAt": "2026-09-30T16:35:28.675Z",
     "description": "Heavy forged brass dual-gauge gas pressure regulators with stainless steel diaphragms designed for heavy industrial cutting, TIG shielding, and heating applications.",
     "displayOrder": 2,
     "features": [
@@ -83,6 +83,6 @@
     "subtitle": "Oxygen, Acetylene, Argon/CO2 Flowmeters, Nitrogen & LPG",
     "title": "300 Bar High-Pressure Gas Regulators.",
     "transitionEffect": "kenburns",
-    "updatedAt": "2026-09-30T14:51:01.941Z"
+    "updatedAt": "2026-09-30T16:43:12.393Z"
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "id": "role-super-admin",
-    "name": "Super Admin",
+    "createdAt": "2026-09-30T16:35:43.440Z",
     "description": "Full system access across public site, CMS, CRM, HRMS, Payroll, security, RBAC, and integrations.",
     "isSystem": true,
-    "scope": "All",
+    "name": "Super Admin",
     "permissions": [
       {
         "module": "dashboard",
@@ -190,15 +190,15 @@
         ]
       }
     ],
-    "createdAt": "2026-09-28T07:05:40.583Z",
-    "updatedAt": "2026-09-28T07:05:40.583Z"
+    "scope": "All",
+    "updatedAt": "2026-09-30T16:43:20.148Z"
   },
   {
     "id": "role-sales-manager",
-    "name": "Sales Manager",
+    "createdAt": "2026-09-30T16:35:43.576Z",
     "description": "Manages team leads, quotation approvals, pipeline targets, and performance reports.",
     "isSystem": false,
-    "scope": "Team",
+    "name": "Sales Manager",
     "permissions": [
       {
         "module": "dashboard",
@@ -271,15 +271,15 @@
         ]
       }
     ],
-    "createdAt": "2026-09-28T07:05:40.583Z",
-    "updatedAt": "2026-09-28T07:05:40.583Z"
+    "scope": "Team",
+    "updatedAt": "2026-09-30T16:43:20.240Z"
   },
   {
     "id": "role-hr-manager",
-    "name": "HR & Payroll Manager",
+    "createdAt": "2026-09-30T16:35:44.040Z",
     "description": "Manages employee directory, biometric attendance, salary generation, and compliance.",
     "isSystem": false,
-    "scope": "All",
+    "name": "HR & Payroll Manager",
     "permissions": [
       {
         "module": "dashboard",
@@ -325,15 +325,15 @@
         ]
       }
     ],
-    "createdAt": "2026-09-28T07:05:40.583Z",
-    "updatedAt": "2026-09-28T07:05:40.583Z"
+    "scope": "All",
+    "updatedAt": "2026-09-30T16:43:20.329Z"
   },
   {
     "id": "role-sales-exec",
-    "name": "Sales Executive",
+    "createdAt": "2026-09-30T16:35:44.365Z",
     "description": "Assigned customer leads, client RFQs, and generating basic quotations.",
     "isSystem": false,
-    "scope": "Assigned",
+    "name": "Sales Executive",
     "permissions": [
       {
         "module": "dashboard",
@@ -379,15 +379,15 @@
         ]
       }
     ],
-    "createdAt": "2026-09-28T07:05:40.583Z",
-    "updatedAt": "2026-09-28T07:05:40.583Z"
+    "scope": "Assigned",
+    "updatedAt": "2026-09-30T16:43:20.389Z"
   },
   {
     "id": "role-quality-inspector",
-    "name": "Quality Inspector & Lab Tech",
+    "createdAt": "2026-09-30T16:35:44.864Z",
     "description": "Executes technical trials, validates sample metallurgy tolerances and test certificates.",
     "isSystem": false,
-    "scope": "Assigned",
+    "name": "Quality Inspector & Lab Tech",
     "permissions": [
       {
         "module": "dashboard",
@@ -420,21 +420,21 @@
         ]
       }
     ],
-    "createdAt": "2026-09-28T07:05:40.583Z",
-    "updatedAt": "2026-09-28T07:05:40.583Z"
+    "scope": "Assigned",
+    "updatedAt": "2026-09-30T16:43:20.450Z"
   },
   {
     "id": "role_admin",
-    "createdAt": "2026-09-30T14:27:24.722Z",
+    "createdAt": "2026-09-30T16:35:45.284Z",
     "name": "Super Admin",
     "permissions": [
       "all"
     ],
-    "updatedAt": "2026-09-30T14:27:24.722Z"
+    "updatedAt": "2026-09-30T16:43:20.544Z"
   },
   {
     "id": "role_sales",
-    "createdAt": "2026-09-30T14:27:24.776Z",
+    "createdAt": "2026-09-30T16:35:45.664Z",
     "name": "Sales Executive",
     "permissions": [
       "crm",
@@ -442,11 +442,11 @@
       "rfq",
       "quotations"
     ],
-    "updatedAt": "2026-09-30T14:27:24.776Z"
+    "updatedAt": "2026-09-30T16:43:20.668Z"
   },
   {
     "id": "role_hr",
-    "createdAt": "2026-09-30T14:27:24.842Z",
+    "createdAt": "2026-09-30T16:35:46.204Z",
     "name": "HR Manager",
     "permissions": [
       "hrms",
@@ -454,6 +454,6 @@
       "payroll",
       "leaves"
     ],
-    "updatedAt": "2026-09-30T14:27:24.842Z"
+    "updatedAt": "2026-09-30T16:43:20.748Z"
   }
 ]

@@ -1,20 +1,14 @@
 [
   {
     "id": "cat-wel-01",
-    "name": "MIG / CO2 & TIG Welding Torches",
-    "slug": "mig-tig-welding-torches",
-    "description": "Heavy-duty 24KD, 36KD, PANA 350A/500A, and precision high-frequency TIG welding torches with air-cooled and water-cooled configurations.",
-    "iconName": "Flame",
-    "productCount": 4,
-    "featured": true,
-    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
     "bannerImage": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-    "subCategories": [
-      "24KD MIG Torches",
-      "36KD MIG Torches",
-      "PANA 350A/500A Torches",
-      "TIG Welding Torches (WP-18/26)"
-    ],
+    "createdAt": "2026-09-30T16:35:28.729Z",
+    "description": "Heavy-duty 24KD, 36KD, PANA 350A/500A, and precision high-frequency TIG welding torches with air-cooled and water-cooled configurations.",
+    "featured": true,
+    "iconName": "Flame",
+    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+    "name": "MIG / CO2 & TIG Welding Torches",
+    "productCount": 4,
     "seoKeywords": [
       "MIG welding torch",
       "24KD torch",
@@ -23,26 +17,27 @@
       "TIG torch",
       "CO2 welding torch"
     ],
-    "seoMetaTitle": "MIG & TIG Industrial Welding Torches | Weldor Industries",
     "seoMetaDescription": "High-performance air-cooled and water-cooled MIG & TIG welding torches manufactured by Weldor Industries.",
-    "updatedAt": "2026-09-30T14:51:01.042Z"
+    "seoMetaTitle": "MIG & TIG Industrial Welding Torches | Weldor Industries",
+    "slug": "mig-tig-welding-torches",
+    "subCategories": [
+      "24KD MIG Torches",
+      "36KD MIG Torches",
+      "PANA 350A/500A Torches",
+      "TIG Welding Torches (WP-18/26)"
+    ],
+    "updatedAt": "2026-09-30T16:43:12.460Z"
   },
   {
     "id": "cat-cut-02",
-    "name": "Plasma & Gas Cutting Torches",
-    "slug": "plasma-gas-cutting-torches",
-    "description": "Manual handheld and Automatic CNC Plasma cutting torches up to 200A and injector / equal-pressure PNME & ANME gas cutting torches up to 300mm capacity.",
-    "iconName": "Zap",
-    "productCount": 4,
-    "featured": true,
-    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
     "bannerImage": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-    "subCategories": [
-      "Plasma Manual Torches",
-      "Plasma Automatic CNC Torches",
-      "PNME Injector Gas Torches",
-      "ANME Equal Pressure Torches"
-    ],
+    "createdAt": "2026-09-30T16:35:28.786Z",
+    "description": "Manual handheld and Automatic CNC Plasma cutting torches up to 200A and injector / equal-pressure PNME & ANME gas cutting torches up to 300mm capacity.",
+    "featured": true,
+    "iconName": "Zap",
+    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+    "name": "Plasma & Gas Cutting Torches",
+    "productCount": 4,
     "seoKeywords": [
       "plasma torch",
       "CNC plasma torch",
@@ -50,26 +45,27 @@
       "PNME torch",
       "ANME cutting torch"
     ],
-    "seoMetaTitle": "Plasma & Oxy-Fuel Gas Cutting Torches | Weldor Industries",
     "seoMetaDescription": "Industrial plasma and gas cutting torches for structural steel cutting up to 300mm thickness.",
-    "updatedAt": "2026-09-30T14:51:01.111Z"
+    "seoMetaTitle": "Plasma & Oxy-Fuel Gas Cutting Torches | Weldor Industries",
+    "slug": "plasma-gas-cutting-torches",
+    "subCategories": [
+      "Plasma Manual Torches",
+      "Plasma Automatic CNC Torches",
+      "PNME Injector Gas Torches",
+      "ANME Equal Pressure Torches"
+    ],
+    "updatedAt": "2026-09-30T16:43:12.505Z"
   },
   {
     "id": "cat-reg-03",
-    "name": "Industrial Gas Pressure Regulators",
-    "slug": "gas-pressure-regulators",
-    "description": "Heavy-duty forged brass gas pressure regulators and flowmeters for Oxygen, Acetylene, Argon/CO2, Nitrogen, Hydrogen, and LPG.",
-    "iconName": "Droplets",
-    "productCount": 4,
-    "featured": true,
-    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
     "bannerImage": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-    "subCategories": [
-      "Oxygen Regulators",
-      "Acetylene Regulators",
-      "Argon / CO2 Flowmeters",
-      "Nitrogen High-Pressure Regulators"
-    ],
+    "createdAt": "2026-09-30T16:35:28.840Z",
+    "description": "Heavy-duty forged brass gas pressure regulators and flowmeters for Oxygen, Acetylene, Argon/CO2, Nitrogen, Hydrogen, and LPG.",
+    "featured": true,
+    "iconName": "Droplets",
+    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+    "name": "Industrial Gas Pressure Regulators",
+    "productCount": 4,
     "seoKeywords": [
       "gas regulator",
       "oxygen regulator",
@@ -77,26 +73,27 @@
       "acetylene regulator",
       "300 bar regulator"
     ],
-    "seoMetaTitle": "Heavy-Duty Forged Brass Gas Pressure Regulators | Weldor",
     "seoMetaDescription": "High-pressure forged brass gas regulators for oxy-fuel cutting, MIG/TIG shielding gas, and industrial heating.",
-    "updatedAt": "2026-09-30T14:51:01.186Z"
+    "seoMetaTitle": "Heavy-Duty Forged Brass Gas Pressure Regulators | Weldor",
+    "slug": "gas-pressure-regulators",
+    "subCategories": [
+      "Oxygen Regulators",
+      "Acetylene Regulators",
+      "Argon / CO2 Flowmeters",
+      "Nitrogen High-Pressure Regulators"
+    ],
+    "updatedAt": "2026-09-30T16:43:12.544Z"
   },
   {
     "id": "cat-con-04",
-    "name": "Welding & Cutting Consumables",
-    "slug": "welding-cutting-consumables",
-    "description": "CuCrZr contact tips, conical MIG nozzles, gas diffusers, plasma electrodes, swirl rings, and precision CNC machined PNME/ANME cutting nozzles.",
-    "iconName": "Cpu",
-    "productCount": 3,
-    "featured": true,
-    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
     "bannerImage": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-    "subCategories": [
-      "MIG Contact Tips & Nozzles",
-      "Plasma Electrodes & Nozzles",
-      "PNME/ANME Cutting Tips",
-      "Gas Diffusers & Insulators"
-    ],
+    "createdAt": "2026-09-30T16:35:28.881Z",
+    "description": "CuCrZr contact tips, conical MIG nozzles, gas diffusers, plasma electrodes, swirl rings, and precision CNC machined PNME/ANME cutting nozzles.",
+    "featured": true,
+    "iconName": "Cpu",
+    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+    "name": "Welding & Cutting Consumables",
+    "productCount": 3,
     "seoKeywords": [
       "MIG contact tip",
       "welding nozzle",
@@ -104,81 +101,88 @@
       "cutting nozzle",
       "gas diffuser"
     ],
-    "seoMetaTitle": "Welding & Cutting Consumables & Spare Parts | Weldor",
     "seoMetaDescription": "Precision machined copper and brass consumables for MIG, TIG, Plasma, and Oxy-Fuel torches.",
-    "updatedAt": "2026-09-30T14:51:01.261Z"
+    "seoMetaTitle": "Welding & Cutting Consumables & Spare Parts | Weldor",
+    "slug": "welding-cutting-consumables",
+    "subCategories": [
+      "MIG Contact Tips & Nozzles",
+      "Plasma Electrodes & Nozzles",
+      "PNME/ANME Cutting Tips",
+      "Gas Diffusers & Insulators"
+    ],
+    "updatedAt": "2026-09-30T16:43:12.587Z"
   },
   {
     "id": "cat_1",
     "banner": "/images/categories/pneumatic-cylinders.jpg",
-    "createdAt": "2026-09-30T14:27:16.880Z",
+    "bannerImage": "/images/categories/pneumatic-cylinders.jpg",
+    "createdAt": "2026-09-30T16:35:28.924Z",
     "description": "ISO standard heavy-duty pneumatic actuators and cylinders.",
     "featured": true,
     "image": "/images/categories/pneumatic-cylinders.jpg",
     "name": "Pneumatic Cylinders",
     "slug": "pneumatic-cylinders",
-    "updatedAt": "2026-09-30T14:51:01.346Z",
-    "bannerImage": "/images/categories/pneumatic-cylinders.jpg"
+    "updatedAt": "2026-09-30T16:43:12.636Z"
   },
   {
     "id": "cat_2",
     "banner": "/images/categories/hydraulic-valves.jpg",
-    "createdAt": "2026-09-30T14:27:16.937Z",
+    "bannerImage": "/images/categories/hydraulic-valves.jpg",
+    "createdAt": "2026-09-30T16:35:28.971Z",
     "description": "High pressure 700 bar directional and proportional hydraulic valves.",
     "featured": true,
     "image": "/images/categories/hydraulic-valves.jpg",
     "name": "Hydraulic Valves",
     "slug": "hydraulic-valves",
-    "updatedAt": "2026-09-30T14:51:01.425Z",
-    "bannerImage": "/images/categories/hydraulic-valves.jpg"
+    "updatedAt": "2026-09-30T16:43:12.689Z"
   },
   {
     "id": "cat_3",
     "banner": "/images/categories/robotic-welding-torches.jpg",
-    "createdAt": "2026-09-30T14:27:17.008Z",
+    "bannerImage": "/images/categories/robotic-welding-torches.jpg",
+    "createdAt": "2026-09-30T16:35:29.017Z",
     "description": "Water-cooled and air-cooled MIG/TIG automation torches.",
     "featured": true,
     "image": "/images/categories/robotic-welding-torches.jpg",
     "name": "Robotic Welding Torches",
     "slug": "robotic-welding-torches",
-    "updatedAt": "2026-09-30T14:51:01.505Z",
-    "bannerImage": "/images/categories/robotic-welding-torches.jpg"
+    "updatedAt": "2026-09-30T16:43:12.755Z"
   },
   {
     "id": "cat_4",
     "banner": "/images/categories/cnc-precision-components.jpg",
-    "createdAt": "2026-09-30T14:27:17.094Z",
+    "bannerImage": "/images/categories/cnc-precision-components.jpg",
+    "createdAt": "2026-09-30T16:35:29.057Z",
     "description": "5-axis CNC machined aerospace and industrial components.",
     "featured": true,
     "image": "/images/categories/cnc-precision-components.jpg",
     "name": "CNC Precision Components",
     "slug": "cnc-precision-components",
-    "updatedAt": "2026-09-30T14:51:01.585Z",
-    "bannerImage": "/images/categories/cnc-precision-components.jpg"
+    "updatedAt": "2026-09-30T16:43:12.809Z"
   },
   {
     "id": "cat_5",
     "banner": "/images/categories/fire-hydrant-valves.jpg",
-    "createdAt": "2026-09-30T14:27:17.172Z",
+    "bannerImage": "/images/categories/fire-hydrant-valves.jpg",
+    "createdAt": "2026-09-30T16:35:29.115Z",
     "description": "Heavy-duty industrial fire fighting valves and couplings.",
     "featured": true,
     "image": "/images/categories/fire-hydrant-valves.jpg",
     "name": "Fire Hydrant Valves",
     "slug": "fire-hydrant-valves",
-    "updatedAt": "2026-09-30T14:51:01.675Z",
-    "bannerImage": "/images/categories/fire-hydrant-valves.jpg"
+    "updatedAt": "2026-09-30T16:43:12.893Z"
   },
   {
     "id": "cat_1790612577263",
     "banner": "/images/categories/robotic-welding-accessories.jpg",
-    "createdAt": "2026-09-30T14:27:17.243Z",
+    "bannerImage": "/images/categories/robotic-welding-accessories.jpg",
+    "createdAt": "2026-09-30T16:35:29.169Z",
     "description": "Quick-change robotic torch necks, wire feeder mechanisms, liner assemblies and anti-spatter cleaning stations.",
     "featured": true,
     "icon": "Cpu",
     "image": "/images/categories/robotic-welding-accessories.jpg",
     "name": "Robotic Welding Automation Accessories",
     "slug": "robotic-welding-automation-accessories",
-    "updatedAt": "2026-09-30T14:51:01.745Z",
-    "bannerImage": "/images/categories/robotic-welding-accessories.jpg"
+    "updatedAt": "2026-09-30T16:43:12.967Z"
   }
 ]

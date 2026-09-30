@@ -15,7 +15,7 @@
       "phone": "+91-98250-77889"
     },
     "cgstTotalUSD": 247.95,
-    "createdAt": "2026-09-30T14:27:23.952Z",
+    "createdAt": "2026-09-30T16:35:42.761Z",
     "freightCostUSD": 100,
     "grandTotalINR": 289076,
     "grandTotalUSD": 3400.9,
@@ -42,14 +42,14 @@
     "taxType": "INTRA_STATE",
     "taxableTotalUSD": 2755,
     "totalTaxUSD": 495.9,
-    "updatedAt": "2026-09-30T14:27:23.952Z",
+    "updatedAt": "2026-09-30T16:43:19.619Z",
     "validityDays": 30
   },
   {
     "id": "quote-1790603965591",
     "companyName": "abc",
     "contactName": "vishal",
-    "createdAt": "2026-09-30T14:27:24.014Z",
+    "createdAt": "2026-09-30T16:35:43.125Z",
     "deliveryTerms": "Ex-Factory Weldor Plant / FOB",
     "email": "vishal@gmail.com",
     "freightCostUSD": 1500,
@@ -75,7 +75,7 @@
     "subtotalUSD": 50000,
     "taxTotalUSD": 8550,
     "totalDiscountUSD": 2500,
-    "updatedAt": "2026-09-30T14:27:24.014Z",
+    "updatedAt": "2026-09-30T16:43:19.694Z",
     "validityDays": 30
   }
 ]

@@ -1,15 +1,12 @@
 [
   {
     "id": "prod-weldor-01",
-    "sku": "WLD-MIG-24KD",
-    "name": "24KD MIG Welding Torch (250A Air-Cooled)",
-    "category": "MIG / CO2 & TIG Welding Torches",
-    "categoryId": "cat-wel-01",
-    "subCategory": "24KD MIG Torches",
+    "applications": [
+      "MIG/MAG CO2 Structural Welding",
+      "Automotive Body Fabrication",
+      "Pipe & Tank Welding"
+    ],
     "brand": "WELDOR",
-    "modelNumber": "WEL-24KD-PRO",
-    "tagline": "Heavy-duty ergonomic 250A MIG torch built for high-performance fabrication with smooth wire feeding.",
-    "description": "The 24KD MIG Welding Torch is a heavy-duty torch built for high-performance welding in industrial applications. Designed for durability and efficiency, it provides smooth wire feeding and consistent arc stability. Features an ergonomic rubber handle with ball-joint knuckle for reduced operator fatigue.",
     "bulletPoints": [
       "Rated Current: 250A (CO2) / 220A (Mixed Gas) at 60% Duty Cycle.",
       "Cooling: High-efficiency Air-Cooled system with heavy copper conductor.",
@@ -17,22 +14,54 @@
       "Available Cable Lengths: 3 meters, 4 meters, and 5 meters with EURO connector.",
       "Robust & ergonomic design with spring cable support for prolonged industrial usage."
     ],
+    "cadDrawingUrl": "",
+    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "category": "MIG / CO2 & TIG Welding Torches",
+    "categoryId": "cat-wel-01",
+    "certifications": [
+      "ISO 9001:2015",
+      "Make in India",
+      "MSME Certified",
+      "CE Standard"
+    ],
+    "createdAt": "2026-09-30T16:35:35.251Z",
+    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "description": "The 24KD MIG Welding Torch is a heavy-duty torch built for high-performance welding in industrial applications. Designed for durability and efficiency, it provides smooth wire feeding and consistent arc stability. Features an ergonomic rubber handle with ball-joint knuckle for reduced operator fatigue.",
+    "featured": true,
+    "gallery": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+    "images": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "inStock": true,
     "industries": [
       "Automotive & Sheet Metal",
       "General Fabrication",
       "Shipbuilding",
       "Heavy Machinery"
     ],
-    "applications": [
-      "MIG/MAG CO2 Structural Welding",
-      "Automotive Body Fabrication",
-      "Pipe & Tank Welding"
-    ],
     "materials": [
       "High Conductivity Deoxidized Copper",
       "Heat-Resistant Silicone Rubber",
       "Reinforced Brass Body"
     ],
+    "minOrderQty": 2,
+    "modelNumber": "WEL-24KD-PRO",
+    "name": "24KD MIG Welding Torch (250A Air-Cooled)",
+    "priceINR": 3850,
+    "priceUSD": 48,
+    "seoKeywords": [
+      "24KD MIG torch",
+      "250A welding torch",
+      "MIG gun",
+      "air cooled MIG torch",
+      "Weldor 24KD"
+    ],
+    "seoMetaDescription": "",
+    "seoMetaTitle": "",
+    "sku": "WLD-MIG-24KD",
     "specifications": [
       {
         "label": "Rated Current (CO2)",
@@ -63,53 +92,21 @@
         "value": "Universal EURO Connection"
       }
     ],
-    "featured": true,
-    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-    "gallery": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ],
-    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "priceUSD": 48,
-    "priceINR": 3850,
-    "certifications": [
-      "ISO 9001:2015",
-      "Make in India",
-      "MSME Certified",
-      "CE Standard"
-    ],
-    "minOrderQty": 2,
     "standardLeadTimeDays": 2,
-    "inStock": true,
-    "seoKeywords": [
-      "24KD MIG torch",
-      "250A welding torch",
-      "MIG gun",
-      "air cooled MIG torch",
-      "Weldor 24KD"
-    ],
     "status": "Active",
-    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "cadDrawingUrl": "",
-    "seoMetaDescription": "",
-    "seoMetaTitle": "",
-    "updatedAt": "2026-09-30T15:00:14.817Z",
+    "subCategory": "24KD MIG Torches",
+    "tagline": "Heavy-duty ergonomic 250A MIG torch built for high-performance fabrication with smooth wire feeding.",
+    "updatedAt": "2026-09-30T17:35:46.547Z",
     "videoThumbnail": "",
-    "videoUrl": "",
-    "images": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ]
+    "videoUrl": ""
   },
   {
     "id": "prod-weldor-02",
-    "sku": "WLD-MIG-36KD",
-    "name": "36KD Heavy-Duty MIG Welding Torch (320A High-Performance)",
-    "category": "MIG / CO2 & TIG Welding Torches",
-    "categoryId": "cat-wel-01",
-    "subCategory": "36KD MIG Torches",
+    "applications": [
+      "Multi-pass Heavy Plate Welding",
+      "GMAW/FCAW Automatic & Semi-automatic Welding"
+    ],
     "brand": "WELDOR",
-    "modelNumber": "WEL-36KD-HD",
-    "tagline": "Industrial heavy-duty 320A MIG welding torch with heavy copper swan neck and superior heat dissipation.",
-    "description": "The 36KD MIG Welding Torch is a heavy-duty torch built for high-performance welding in heavy engineering and structural fabrication. Designed for maximum durability and thermal efficiency, it ensures smooth wire feeding and continuous high-current arc stability under extreme production cycles.",
     "bulletPoints": [
       "Rated Current: 320A (CO2) / 290A (Mixed Gas) at 60% Duty Cycle.",
       "Heavy-duty swan neck with integrated gas diffuser and insulated nozzle.",
@@ -117,20 +114,52 @@
       "Ergonomic handle with knuckle joint and heavy-duty spring strain relief.",
       "Precision machined brass central adapter connector (EURO standard)."
     ],
+    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "category": "MIG / CO2 & TIG Welding Torches",
+    "categoryId": "cat-wel-01",
+    "certifications": [
+      "ISO 9001:2015",
+      "Make in India",
+      "CE Compliant"
+    ],
+    "createdAt": "2026-09-30T16:35:35.308Z",
+    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "description": "The 36KD MIG Welding Torch is a heavy-duty torch built for high-performance welding in heavy engineering and structural fabrication. Designed for maximum durability and thermal efficiency, it ensures smooth wire feeding and continuous high-current arc stability under extreme production cycles.",
+    "featured": true,
+    "gallery": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+    "images": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "inStock": true,
     "industries": [
       "Heavy Structural Engineering",
       "Boiler & Pressure Vessel Fabrication",
       "Railways & Metro Coaches"
-    ],
-    "applications": [
-      "Multi-pass Heavy Plate Welding",
-      "GMAW/FCAW Automatic & Semi-automatic Welding"
     ],
     "materials": [
       "Oxygen-Free Copper Swan Neck",
       "High-Grade Brass",
       "Heat-Resistant Phenolic Compound"
     ],
+    "minOrderQty": 2,
+    "modelNumber": "WEL-36KD-HD",
+    "name": "36KD Heavy-Duty MIG Welding Torch (320A High-Performance)",
+    "priceINR": 5200,
+    "priceUSD": 65,
+    "seoKeywords": [
+      "36KD MIG torch",
+      "320A welding gun",
+      "heavy duty MIG torch",
+      "Euro connector MIG torch"
+    ],
+    "sku": "WLD-MIG-36KD",
     "specifications": [
       {
         "label": "Rated Current (CO2)",
@@ -157,50 +186,19 @@
         "value": "EURO Central Adapter"
       }
     ],
-    "featured": true,
-    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-    "gallery": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ],
-    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "priceUSD": 65,
-    "priceINR": 5200,
-    "certifications": [
-      "ISO 9001:2015",
-      "Make in India",
-      "CE Compliant"
-    ],
-    "minOrderQty": 2,
     "standardLeadTimeDays": 2,
-    "inStock": true,
-    "seoKeywords": [
-      "36KD MIG torch",
-      "320A welding gun",
-      "heavy duty MIG torch",
-      "Euro connector MIG torch"
-    ],
     "status": "Active",
-    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "images": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ],
-    "updatedAt": "2026-09-30T15:00:14.914Z"
+    "subCategory": "36KD MIG Torches",
+    "tagline": "Industrial heavy-duty 320A MIG welding torch with heavy copper swan neck and superior heat dissipation.",
+    "updatedAt": "2026-09-30T17:35:46.659Z"
   },
   {
     "id": "prod-weldor-03",
-    "sku": "WLD-PANA-500A",
-    "name": "PANA 350A / 500A Industrial MIG Welding Torch",
-    "category": "MIG / CO2 & TIG Welding Torches",
-    "categoryId": "cat-wel-01",
-    "subCategory": "PANA 350A/500A Torches",
+    "applications": [
+      "High-deposition Multi-pass GMAW",
+      "Robotic Automation & Column-Boom Welding"
+    ],
     "brand": "WELDOR",
-    "modelNumber": "WEL-PANA-500W",
-    "tagline": "Ultra high-power 500A water-cooled MIG torch designed for continuous robotic & automated heavy fabrication.",
-    "description": "The PANA 500A Water-Cooled MIG Torch delivers exceptional thermal management for the most demanding heavy duty production lines. Engineered for 100% duty cycle operation at 500 Amperes, it prevents nozzle burn and contact tip expansion even during multi-shift non-stop welding.",
     "bulletPoints": [
       "100% Duty Cycle at 350A/500A under pure CO2 shielding gas.",
       "Dual-circuit liquid cooling ensures direct chiller water circulation up to the torch tip.",
@@ -208,20 +206,52 @@
       "Heavy brass head and double-insulated outer protection jacket.",
       "Available with Panasonic-style backend or EURO central connection."
     ],
+    "cadDrawingUrl": "",
+    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "category": "MIG / CO2 & TIG Welding Torches",
+    "categoryId": "cat-wel-01",
+    "certifications": [
+      "ISO 9001:2015",
+      "CE Standard"
+    ],
+    "createdAt": "2026-09-30T16:35:35.375Z",
+    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "description": "The PANA 500A Water-Cooled MIG Torch delivers exceptional thermal management for the most demanding heavy duty production lines. Engineered for 100% duty cycle operation at 500 Amperes, it prevents nozzle burn and contact tip expansion even during multi-shift non-stop welding.",
+    "featured": true,
+    "gallery": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+    "images": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "inStock": true,
     "industries": [
       "Earth Moving Equipment",
       "Shipbuilding & Marine",
       "Structural Steel Fabricators"
-    ],
-    "applications": [
-      "High-deposition Multi-pass GMAW",
-      "Robotic Automation & Column-Boom Welding"
     ],
     "materials": [
       "Tellurium Copper Conductors",
       "EPDM Reinforced Water Hoses",
       "Impact-Resistant Polymer"
     ],
+    "minOrderQty": 1,
+    "modelNumber": "WEL-PANA-500W",
+    "name": "PANA 350A / 500A Industrial MIG Welding Torch",
+    "priceINR": 9200,
+    "priceUSD": 115,
+    "seoKeywords": [
+      "PANA 500A",
+      "water cooled MIG torch",
+      "500A welding torch",
+      "robotic MIG gun"
+    ],
+    "seoMetaDescription": "",
+    "seoMetaTitle": "",
+    "sku": "WLD-PANA-500A",
     "specifications": [
       {
         "label": "Current Rating (CO2)",
@@ -244,52 +274,22 @@
         "value": "1.0 - 2.0 mm"
       }
     ],
-    "featured": true,
-    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-    "gallery": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ],
-    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "priceUSD": 115,
-    "priceINR": 9200,
-    "certifications": [
-      "ISO 9001:2015",
-      "CE Standard"
-    ],
-    "minOrderQty": 1,
     "standardLeadTimeDays": 3,
-    "inStock": true,
-    "seoKeywords": [
-      "PANA 500A",
-      "water cooled MIG torch",
-      "500A welding torch",
-      "robotic MIG gun"
-    ],
     "status": "Active",
-    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "cadDrawingUrl": "",
-    "seoMetaDescription": "",
-    "seoMetaTitle": "",
-    "updatedAt": "2026-09-30T15:00:14.969Z",
+    "subCategory": "PANA 350A/500A Torches",
+    "tagline": "Ultra high-power 500A water-cooled MIG torch designed for continuous robotic & automated heavy fabrication.",
+    "updatedAt": "2026-09-30T17:35:46.720Z",
     "videoThumbnail": "",
-    "videoUrl": "",
-    "images": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ]
+    "videoUrl": ""
   },
   {
     "id": "prod-weldor-04",
-    "sku": "WLD-TIG-WP18",
-    "name": "TIG Welding Torch WP18 / WP 26",
-    "category": "MIG / CO2 & TIG Welding Torches",
-    "categoryId": "cat-wel-01",
-    "subCategory": "TIG Welding Torches (WP-18/26)",
+    "applications": [
+      "GTAW High-Purity Root Pass",
+      "Sanitary Stainless Steel Piping",
+      "Aluminium AC TIG Welding"
+    ],
     "brand": "WELDOR",
-    "modelNumber": "WEL-WP18-WP26",
-    "tagline": "Precision high-amperage 350A TIG torch with direct silicon cooling jacket for flawless root runs.",
-    "description": "The WP-18 TIG Torch is engineered for precision welding of high-alloy steels, titanium, aluminium, and pressure vessel piping. High-capacity liquid cooling provides maximum operator comfort and extended consumable life under high continuous current.",
     "bulletPoints": [
       "Rated Current: 350A DC / 260A AC at 100% Duty Cycle.",
       "Flexible torch body option available for tight angle pipe work.",
@@ -297,21 +297,52 @@
       "Silicone rubber outer hose cable assembly with leather front guard.",
       "Available in 4-meter and 8-meter lengths with standard two-pin trigger switch."
     ],
+    "cadDrawingUrl": "",
+    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "category": "MIG / CO2 & TIG Welding Torches",
+    "categoryId": "cat-wel-01",
+    "certifications": [
+      "ISO 9001:2015",
+      "CE Standard"
+    ],
+    "createdAt": "2026-09-30T16:35:35.418Z",
+    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "description": "The WP-18 TIG Torch is engineered for precision welding of high-alloy steels, titanium, aluminium, and pressure vessel piping. High-capacity liquid cooling provides maximum operator comfort and extended consumable life under high continuous current.",
+    "featured": true,
+    "gallery": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+    "images": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "inStock": true,
     "industries": [
       "Nuclear & Defense",
       "Aerospace & Chemical Reactors",
       "Dairy & Food Processing Equipment"
-    ],
-    "applications": [
-      "GTAW High-Purity Root Pass",
-      "Sanitary Stainless Steel Piping",
-      "Aluminium AC TIG Welding"
     ],
     "materials": [
       "Silicon Nitride Insulators",
       "Deoxidized Copper Heat Sink",
       "Super-flex Braided Hoses"
     ],
+    "minOrderQty": 1,
+    "modelNumber": "WEL-WP18-WP26",
+    "name": "TIG Welding Torch WP18 / WP 26",
+    "priceINR": 6250,
+    "priceUSD": 78,
+    "seoKeywords": [
+      "WP-18 TIG torch",
+      "350A TIG torch",
+      "water cooled TIG torch",
+      "Argon welding torch"
+    ],
+    "seoMetaDescription": "",
+    "seoMetaTitle": "",
+    "sku": "WLD-TIG-WP18",
     "specifications": [
       {
         "label": "Current (DC)",
@@ -334,52 +365,21 @@
         "value": "Gas cool & Water Cooled"
       }
     ],
-    "featured": true,
-    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-    "gallery": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ],
-    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "priceUSD": 78,
-    "priceINR": 6250,
-    "certifications": [
-      "ISO 9001:2015",
-      "CE Standard"
-    ],
-    "minOrderQty": 1,
     "standardLeadTimeDays": 2,
-    "inStock": true,
-    "seoKeywords": [
-      "WP-18 TIG torch",
-      "350A TIG torch",
-      "water cooled TIG torch",
-      "Argon welding torch"
-    ],
     "status": "Active",
-    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "cadDrawingUrl": "",
-    "seoMetaDescription": "",
-    "seoMetaTitle": "",
-    "updatedAt": "2026-09-30T15:00:15.025Z",
+    "subCategory": "TIG Welding Torches (WP-18/26)",
+    "tagline": "Precision high-amperage 350A TIG torch with direct silicon cooling jacket for flawless root runs.",
+    "updatedAt": "2026-09-30T17:35:46.803Z",
     "videoThumbnail": "",
-    "videoUrl": "",
-    "images": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ]
+    "videoUrl": ""
   },
   {
     "id": "prod-weldor-05",
-    "sku": "WLD-PLS-TORCH",
-    "name": "High-Frequency Pilot Arc Plasma Cutting Torch",
-    "category": "Plasma & Gas Cutting Torches",
-    "categoryId": "cat-cut-02",
-    "subCategory": "Plasma Manual Torches",
+    "applications": [
+      "Manual Air Plasma Cutting",
+      "Gouging & Piercing of Structural Steels"
+    ],
     "brand": "WELDOR",
-    "modelNumber": "WEL-PLASMA-PRO",
-    "tagline": "Pilot Arc non-contact plasma torch cutting up to 40mm steel plate with dross-free bevel quality.",
-    "description": "The P-80 Plasma Torch is an industry benchmark for manual air plasma cutting. Featuring an efficient pilot arc ignition system, it cuts through painted, rusted, and galvanized metals with zero surface prep. High thermal efficiency ensures long electrode and nozzle lifespan.",
     "bulletPoints": [
       "Cutting Capacity: Severance up to 40mm, Quality cut up to 32mm.",
       "Rated Current: 40-200 Amps at 60% Duty Cycle.",
@@ -387,21 +387,51 @@
       "Reinforced fiberglass safety shield prevents spatter feedback.",
       "Standard M16x1.5 or Central connector with safety trigger lock."
     ],
+    "cadDrawingUrl": "",
+    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "category": "Plasma & Gas Cutting Torches",
+    "categoryId": "cat-cut-02",
+    "certifications": [
+      "ISO 9001:2015",
+      "CE Standard"
+    ],
+    "createdAt": "2026-09-30T16:35:35.492Z",
+    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "description": "The P-80 Plasma Torch is an industry benchmark for manual air plasma cutting. Featuring an efficient pilot arc ignition system, it cuts through painted, rusted, and galvanized metals with zero surface prep. High thermal efficiency ensures long electrode and nozzle lifespan.",
+    "featured": true,
+    "gallery": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+    "images": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "inStock": true,
     "industries": [
       "Scrap Dismantling",
       "Metal Fabrication Shops",
       "Automotive Customization",
       "HVAC Ducting"
     ],
-    "applications": [
-      "Manual Air Plasma Cutting",
-      "Gouging & Piercing of Structural Steels"
-    ],
     "materials": [
       "Hafnium Core Electrodes",
       "Tellurium Copper Nozzles",
       "Fiberglass Insulated Body"
     ],
+    "minOrderQty": 2,
+    "modelNumber": "WEL-PLASMA-PRO",
+    "name": "High-Frequency Pilot Arc Plasma Cutting Torch",
+    "priceINR": 4600,
+    "priceUSD": 58,
+    "seoKeywords": [
+      "P80 plasma torch",
+      "100A plasma cutter",
+      "pilot arc plasma gun",
+      "P-80 torch"
+    ],
+    "seoMetaDescription": "",
+    "seoMetaTitle": "",
+    "sku": "WLD-PLS-TORCH",
     "specifications": [
       {
         "label": "Rated Current",
@@ -424,50 +454,22 @@
         "value": "200 L/min"
       }
     ],
-    "featured": true,
-    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-    "gallery": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ],
-    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "priceUSD": 58,
-    "priceINR": 4600,
-    "certifications": [
-      "ISO 9001:2015",
-      "CE Standard"
-    ],
-    "minOrderQty": 2,
     "standardLeadTimeDays": 2,
-    "inStock": true,
-    "seoKeywords": [
-      "P80 plasma torch",
-      "100A plasma cutter",
-      "pilot arc plasma gun",
-      "P-80 torch"
-    ],
     "status": "Active",
-    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "cadDrawingUrl": "",
-    "seoMetaDescription": "",
-    "seoMetaTitle": "",
-    "updatedAt": "2026-09-30T15:00:15.081Z",
+    "subCategory": "Plasma Manual Torches",
+    "tagline": "Pilot Arc non-contact plasma torch cutting up to 40mm steel plate with dross-free bevel quality.",
+    "updatedAt": "2026-09-30T17:35:46.882Z",
     "videoThumbnail": "",
-    "videoUrl": "",
-    "images": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ]
+    "videoUrl": ""
   },
   {
     "id": "prod-weldor-06",
-    "sku": "WLD-PLS-CNC200",
-    "name": "CNC Heavy Duty 60-200A Machine Plasma Torch (Automatic)",
-    "category": "Plasma & Gas Cutting Torches",
-    "categoryId": "cat-cut-02",
-    "subCategory": "Plasma Automatic CNC Torches",
+    "applications": [
+      "Automated CNC Plate Cutting",
+      "High-speed Bevel Cutting",
+      "Plasma Gouging"
+    ],
     "brand": "WELDOR",
-    "modelNumber": "WEL-CNC-200W",
-    "tagline": "Water-cooled straight machine barrel torch for 24/7 automated CNC gantry plasma tables.",
-    "description": "Designed specifically for industrial CNC profile cutting tables and robotic bevel gantries, the CNC-200W Machine Torch delivers razor-sharp edge squareness and minimal kerf width. Direct water cooling protects internal components during high-amperage continuous duty.",
     "bulletPoints": [
       "Rated Current: 60 - 200 Amperes at 100% Continuous Duty Cycle.",
       "Piercing capacity up to 35mm, severance cutting up to 60mm carbon steel.",
@@ -475,21 +477,50 @@
       "Integrated ohmic sensing cap and height controller compatibility.",
       "Available in 8m and 12m cable assemblies with heavy metallic conduit."
     ],
+    "cadDrawingUrl": "",
+    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "category": "Plasma & Gas Cutting Torches",
+    "categoryId": "cat-cut-02",
+    "certifications": [
+      "ISO 9001:2015",
+      "CE Standard"
+    ],
+    "createdAt": "2026-09-30T16:35:35.539Z",
+    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "description": "Designed specifically for industrial CNC profile cutting tables and robotic bevel gantries, the CNC-200W Machine Torch delivers razor-sharp edge squareness and minimal kerf width. Direct water cooling protects internal components during high-amperage continuous duty.",
+    "featured": true,
+    "gallery": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+    "images": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "inStock": true,
     "industries": [
       "CNC Profile Cutting Centers",
       "Steel Service Yards",
       "Heavy Equipment Manufacturers"
-    ],
-    "applications": [
-      "Automated CNC Plate Cutting",
-      "High-speed Bevel Cutting",
-      "Plasma Gouging"
     ],
     "materials": [
       "Chromium Zirconium Copper",
       "Precision Turned Brass",
       "Stainless Steel Barrel"
     ],
+    "minOrderQty": 1,
+    "modelNumber": "WEL-CNC-200W",
+    "name": "CNC Heavy Duty 60-200A Machine Plasma Torch (Automatic)",
+    "priceINR": 14800,
+    "priceUSD": 185,
+    "seoKeywords": [
+      "CNC plasma torch",
+      "machine plasma torch",
+      "200A plasma gun",
+      "automatic plasma torch"
+    ],
+    "seoMetaDescription": "",
+    "seoMetaTitle": "",
+    "sku": "WLD-PLS-CNC200",
     "specifications": [
       {
         "label": "Current Rating",
@@ -512,50 +543,22 @@
         "value": "Liquid Cooled"
       }
     ],
-    "featured": true,
-    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-    "gallery": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ],
-    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "priceUSD": 185,
-    "priceINR": 14800,
-    "certifications": [
-      "ISO 9001:2015",
-      "CE Standard"
-    ],
-    "minOrderQty": 1,
     "standardLeadTimeDays": 3,
-    "inStock": true,
-    "seoKeywords": [
-      "CNC plasma torch",
-      "machine plasma torch",
-      "200A plasma gun",
-      "automatic plasma torch"
-    ],
     "status": "Active",
-    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "cadDrawingUrl": "",
-    "seoMetaDescription": "",
-    "seoMetaTitle": "",
-    "updatedAt": "2026-09-30T15:00:15.144Z",
+    "subCategory": "Plasma Automatic CNC Torches",
+    "tagline": "Water-cooled straight machine barrel torch for 24/7 automated CNC gantry plasma tables.",
+    "updatedAt": "2026-09-30T17:35:46.970Z",
     "videoThumbnail": "",
-    "videoUrl": "",
-    "images": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ]
+    "videoUrl": ""
   },
   {
     "id": "prod-weldor-07",
-    "sku": "WLD-GAS-CUT",
-    "name": "Heavy Duty Gas Cutting Torch",
-    "category": "Plasma & Gas Cutting Torches",
-    "categoryId": "cat-cut-02",
-    "subCategory": "Gas Cutting Torches",
+    "applications": [
+      "Manual Oxy-LPG Plate Cutting",
+      "Ladle Skimming",
+      "Riser & Runner Cutting in Foundries"
+    ],
     "brand": "WELDOR",
-    "modelNumber": "WEL-GAS-CUT",
-    "tagline": "Forged brass heavy-duty oxy-LPG/Propane cutting torch with 300mm cutting capacity.",
-    "description": "The PNME Injector Gas Cutting Torch is designed for optimal performance with Oxy-LPG and Oxy-Natural Gas. The precision engineered injector ensures intimate gas mixing for clean preheat flames and rapid piercing with zero backfire risk.",
     "bulletPoints": [
       "Cutting Capacity: 3mm up to 300mm carbon steel plates.",
       "Drop forged brass body and stainless steel tubes for high mechanical strength.",
@@ -563,21 +566,50 @@
       "Forward-positioned cutting lever with lock latch for comfortable operation.",
       "Compatible with all international standard PNME two-piece cutting nozzles."
     ],
+    "cadDrawingUrl": "",
+    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "category": "Plasma & Gas Cutting Torches",
+    "categoryId": "cat-cut-02",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISI Approved Standard"
+    ],
+    "createdAt": "2026-09-30T16:35:35.653Z",
+    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "description": "The PNME Injector Gas Cutting Torch is designed for optimal performance with Oxy-LPG and Oxy-Natural Gas. The precision engineered injector ensures intimate gas mixing for clean preheat flames and rapid piercing with zero backfire risk.",
+    "featured": true,
+    "gallery": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+    "images": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "inStock": true,
     "industries": [
       "Steel Mills & Rolling Plants",
       "Demolition & Scrap Processing",
       "General Structural Fabrication"
-    ],
-    "applications": [
-      "Manual Oxy-LPG Plate Cutting",
-      "Ladle Skimming",
-      "Riser & Runner Cutting in Foundries"
     ],
     "materials": [
       "Drop Forged Extruded Brass",
       "Seamless Stainless Steel Tubing",
       "Teflon Valve Seals"
     ],
+    "minOrderQty": 3,
+    "modelNumber": "WEL-GAS-CUT",
+    "name": "Heavy Duty Gas Cutting Torch",
+    "priceINR": 2850,
+    "priceUSD": 36,
+    "seoKeywords": [
+      "PNME gas torch",
+      "LPG cutting torch",
+      "gas cutting blowpipe",
+      "oxy propane torch"
+    ],
+    "seoMetaDescription": "",
+    "seoMetaTitle": "",
+    "sku": "WLD-GAS-CUT",
     "specifications": [
       {
         "label": "Cutting Thickness",
@@ -600,50 +632,22 @@
         "value": "Injector Mixing"
       }
     ],
-    "featured": true,
-    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-    "gallery": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ],
-    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "priceUSD": 36,
-    "priceINR": 2850,
-    "certifications": [
-      "ISO 9001:2015",
-      "ISI Approved Standard"
-    ],
-    "minOrderQty": 3,
     "standardLeadTimeDays": 2,
-    "inStock": true,
-    "seoKeywords": [
-      "PNME gas torch",
-      "LPG cutting torch",
-      "gas cutting blowpipe",
-      "oxy propane torch"
-    ],
     "status": "Active",
-    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "cadDrawingUrl": "",
-    "seoMetaDescription": "",
-    "seoMetaTitle": "",
-    "updatedAt": "2026-09-30T15:00:15.209Z",
+    "subCategory": "Gas Cutting Torches",
+    "tagline": "Forged brass heavy-duty oxy-LPG/Propane cutting torch with 300mm cutting capacity.",
+    "updatedAt": "2026-09-30T17:35:47.042Z",
     "videoThumbnail": "",
-    "videoUrl": "",
-    "images": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ]
+    "videoUrl": ""
   },
   {
     "id": "prod-weldor-09",
-    "sku": "WLD-REG-OXY300",
-    "name": "Heavy-Duty Forged Brass Oxygen Pressure Regulator (300 Bar)",
-    "category": "Industrial Gas Pressure Regulators",
-    "categoryId": "cat-reg-03",
-    "subCategory": "Oxygen Regulators",
+    "applications": [
+      "Oxy-Fuel Cutting & Gouging",
+      "Industrial Gas Manifold Delivery",
+      "Cylinder Filling Stations"
+    ],
     "brand": "WELDOR",
-    "modelNumber": "WEL-REG-OXY",
-    "tagline": "Solid forged brass 300 bar inlet oxygen regulator with dual safety blow-off valves.",
-    "description": "Manufactured from high-density forged brass bar-stock, this industrial Oxygen Regulator withstands up to 300 Bar inlet cylinder pressure. Engineered with neoprene diaphragm and stainless steel valve pin, it ensures non-fluctuating delivery pressure for continuous cutting.",
     "bulletPoints": [
       "Inlet Pressure: Up to 300 Bar (4350 PSI), Outlet Pressure: 0 - 10 Bar (145 PSI).",
       "Body & bonnet machined from solid hot forged brass for extreme burst safety.",
@@ -651,21 +655,52 @@
       "Dual 63mm pressure gauges with shatter-resistant safety acrylic lenses.",
       "Integrated sintered bronze inlet filter traps rust and pipeline particulates."
     ],
+    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "category": "Industrial Gas Pressure Regulators",
+    "categoryId": "cat-reg-03",
+    "certifications": [
+      "ISO 9001:2015",
+      "EN ISO 2503",
+      "BSI Certified"
+    ],
+    "createdAt": "2026-09-30T16:35:35.713Z",
+    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "description": "Manufactured from high-density forged brass bar-stock, this industrial Oxygen Regulator withstands up to 300 Bar inlet cylinder pressure. Engineered with neoprene diaphragm and stainless steel valve pin, it ensures non-fluctuating delivery pressure for continuous cutting.",
+    "featured": true,
+    "gallery": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+    "images": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "inStock": true,
     "industries": [
       "Steel Works & Fabrication",
       "Medical Gas Facilities",
       "Pipeline Construction"
-    ],
-    "applications": [
-      "Oxy-Fuel Cutting & Gouging",
-      "Industrial Gas Manifold Delivery",
-      "Cylinder Filling Stations"
     ],
     "materials": [
       "Forged Brass CW617N",
       "Sintered Bronze Filter",
       "Neoprene Diaphragm"
     ],
+    "minOrderQty": 2,
+    "modelNumber": "WEL-REG-OXY",
+    "name": "Heavy-Duty Forged Brass Oxygen Pressure Regulator (300 Bar)",
+    "priceINR": 2950,
+    "priceUSD": 38,
+    "seoKeywords": [
+      "oxygen regulator",
+      "300 bar gas regulator",
+      "brass oxygen regulator",
+      "welding gas regulator"
+    ],
+    "sku": "WLD-REG-OXY300",
     "specifications": [
       {
         "label": "Max Inlet Pressure",
@@ -688,50 +723,20 @@
         "value": "3/8\" BSP Right Hand Male"
       }
     ],
-    "featured": true,
-    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-    "gallery": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ],
-    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "priceUSD": 38,
-    "priceINR": 2950,
-    "certifications": [
-      "ISO 9001:2015",
-      "EN ISO 2503",
-      "BSI Certified"
-    ],
-    "minOrderQty": 2,
     "standardLeadTimeDays": 2,
-    "inStock": true,
-    "seoKeywords": [
-      "oxygen regulator",
-      "300 bar gas regulator",
-      "brass oxygen regulator",
-      "welding gas regulator"
-    ],
     "status": "Active",
-    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "images": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ],
-    "updatedAt": "2026-09-30T15:00:15.265Z"
+    "subCategory": "Oxygen Regulators",
+    "tagline": "Solid forged brass 300 bar inlet oxygen regulator with dual safety blow-off valves.",
+    "updatedAt": "2026-09-30T17:35:47.126Z"
   },
   {
     "id": "prod-weldor-10",
-    "sku": "WLD-REG-ARCO2",
-    "name": "Argon / CO2 Shielding Gas Regulator with Precision Flowmeter",
-    "category": "Industrial Gas Pressure Regulators",
-    "categoryId": "cat-reg-03",
-    "subCategory": "Argon / CO2 Flowmeters",
+    "applications": [
+      "MIG/MAG Shielding Gas Delivery",
+      "TIG Purge Gas Regulation",
+      "Automated Robot Torch Supply"
+    ],
     "brand": "WELDOR",
-    "modelNumber": "WEL-FLOW-ARG",
-    "tagline": "Precision 0 - 35 L/min graduated flowmeter regulator for zero-porosity MIG & TIG shielding.",
-    "description": "Designed for high-precision TIG and MIG welding, this regulator features a calibrated polycarbonate flow tube with a stainless steel ball indicator. It provides exact laminar shielding gas flow from 0 to 35 Litres per minute without turbulent surging.",
     "bulletPoints": [
       "Inlet Cylinder Pressure: 200 Bar (3000 PSI).",
       "Calibrated Flow Range: 0 - 35 Litres/Minute for Argon and Argon/CO2 mixes.",
@@ -739,21 +744,51 @@
       "Internal preset pressure relief valve prevents over-pressurization.",
       "High-sensitivity needle valve allows fine-tuning for robotic and manual welding."
     ],
+    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "category": "Industrial Gas Pressure Regulators",
+    "categoryId": "cat-reg-03",
+    "certifications": [
+      "ISO 9001:2015",
+      "EN ISO 2503"
+    ],
+    "createdAt": "2026-09-30T16:35:35.773Z",
+    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "description": "Designed for high-precision TIG and MIG welding, this regulator features a calibrated polycarbonate flow tube with a stainless steel ball indicator. It provides exact laminar shielding gas flow from 0 to 35 Litres per minute without turbulent surging.",
+    "featured": true,
+    "gallery": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+    "images": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "inStock": true,
     "industries": [
       "Precision Aerospace TIG",
       "Automotive Sheet Metal",
       "Stainless Tank & Pipe Welding"
-    ],
-    "applications": [
-      "MIG/MAG Shielding Gas Delivery",
-      "TIG Purge Gas Regulation",
-      "Automated Robot Torch Supply"
     ],
     "materials": [
       "Extruded Brass Body",
       "Polycarbonate Tube",
       "Stainless Steel Float Ball"
     ],
+    "minOrderQty": 2,
+    "modelNumber": "WEL-FLOW-ARG",
+    "name": "Argon / CO2 Shielding Gas Regulator with Precision Flowmeter",
+    "priceINR": 3450,
+    "priceUSD": 44,
+    "seoKeywords": [
+      "argon regulator",
+      "CO2 flowmeter",
+      "TIG gas regulator",
+      "shielding gas flowmeter"
+    ],
+    "sku": "WLD-REG-ARCO2",
     "specifications": [
       {
         "label": "Max Inlet Pressure",
@@ -776,49 +811,20 @@
         "value": "Argon, CO2, Ar/CO2 Mix, Helium"
       }
     ],
-    "featured": true,
-    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-    "gallery": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ],
-    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "priceUSD": 44,
-    "priceINR": 3450,
-    "certifications": [
-      "ISO 9001:2015",
-      "EN ISO 2503"
-    ],
-    "minOrderQty": 2,
     "standardLeadTimeDays": 2,
-    "inStock": true,
-    "seoKeywords": [
-      "argon regulator",
-      "CO2 flowmeter",
-      "TIG gas regulator",
-      "shielding gas flowmeter"
-    ],
     "status": "Active",
-    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "images": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ],
-    "updatedAt": "2026-09-30T15:00:15.325Z"
+    "subCategory": "Argon / CO2 Flowmeters",
+    "tagline": "Precision 0 - 35 L/min graduated flowmeter regulator for zero-porosity MIG & TIG shielding.",
+    "updatedAt": "2026-09-30T17:35:47.200Z"
   },
   {
     "id": "prod-weldor-11",
-    "sku": "WLD-CON-TIP",
-    "name": "CuCrZr Heavy-Duty MIG Contact Tips (M6 / M8 / M10 Threads)",
-    "category": "Welding & Cutting Consumables",
-    "categoryId": "cat-con-04",
-    "subCategory": "MIG Contact Tips & Nozzles",
+    "applications": [
+      "High-Duty MIG/MAG Production",
+      "Automated Robotic Cells",
+      "Hardfacing & Cladding"
+    ],
     "brand": "WELDOR",
-    "modelNumber": "WEL-TIP-CUCRZR",
-    "tagline": "High thermal conductivity Copper-Chromium-Zirconium tips with 3x longer operational life.",
-    "description": "Manufactured from cold-drawn Copper-Chromium-Zirconium (CuCrZr) alloy, these contact tips maintain their bore diameter and electrical conductivity even at temperatures exceeding 450°C. Delivers 3 times the lifespan of standard E-Cu tips on robotic lines.",
     "bulletPoints": [
       "CuCrZr Alloy Composition: Cr 0.6-1.2%, Zr 0.03-0.3%, Balance Cu (Hardness > 140 HB).",
       "High softening temperature (>450°C) prevents bore elongation and wire burn-back.",
@@ -826,20 +832,50 @@
       "Available in M6 (28mm), M8 (30mm), and M10 (35mm) threads for 0.8mm to 2.0mm wires.",
       "Packaged in corrosion-proof hermetic blister packs of 25 pcs."
     ],
+    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "category": "Welding & Cutting Consumables",
+    "categoryId": "cat-con-04",
+    "certifications": [
+      "ISO 9001:2015",
+      "RoHS Compliant"
+    ],
+    "createdAt": "2026-09-30T16:35:35.981Z",
+    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "description": "Manufactured from cold-drawn Copper-Chromium-Zirconium (CuCrZr) alloy, these contact tips maintain their bore diameter and electrical conductivity even at temperatures exceeding 450°C. Delivers 3 times the lifespan of standard E-Cu tips on robotic lines.",
+    "featured": true,
+    "gallery": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+    "images": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "inStock": true,
     "industries": [
       "Robotic Automotive Manufacturing",
       "Heavy Structural Steel",
       "Boiler Tube Fabrication"
     ],
-    "applications": [
-      "High-Duty MIG/MAG Production",
-      "Automated Robotic Cells",
-      "Hardfacing & Cladding"
-    ],
     "materials": [
       "CuCrZr Precipitation-Hardened Copper",
       "Electroplated Silver Coating (Optional)"
     ],
+    "minOrderQty": 50,
+    "modelNumber": "WEL-TIP-CUCRZR",
+    "name": "CuCrZr Heavy-Duty MIG Contact Tips (M6 / M8 / M10 Threads)",
+    "priceINR": 140,
+    "priceUSD": 1.8,
+    "seoKeywords": [
+      "CuCrZr contact tip",
+      "MIG tip M8",
+      "welding contact tip",
+      "robotic contact tip"
+    ],
+    "sku": "WLD-CON-TIP",
     "specifications": [
       {
         "label": "Material Grade",
@@ -862,49 +898,19 @@
         "value": "0.8, 1.0, 1.2, 1.6, 2.0 mm"
       }
     ],
-    "featured": true,
-    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-    "gallery": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ],
-    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "priceUSD": 1.8,
-    "priceINR": 140,
-    "certifications": [
-      "ISO 9001:2015",
-      "RoHS Compliant"
-    ],
-    "minOrderQty": 50,
     "standardLeadTimeDays": 1,
-    "inStock": true,
-    "seoKeywords": [
-      "CuCrZr contact tip",
-      "MIG tip M8",
-      "welding contact tip",
-      "robotic contact tip"
-    ],
     "status": "Active",
-    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "images": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ],
-    "updatedAt": "2026-09-30T15:00:15.378Z"
+    "subCategory": "MIG Contact Tips & Nozzles",
+    "tagline": "High thermal conductivity Copper-Chromium-Zirconium tips with 3x longer operational life.",
+    "updatedAt": "2026-09-30T17:35:47.282Z"
   },
   {
     "id": "prod-weldor-12",
-    "sku": "WLD-CON-PNME-TIP",
-    "name": "PNME Two-Piece Cutting Nozzles (Sizes 1/32\" to 1/8\")",
-    "category": "Welding & Cutting Consumables",
-    "categoryId": "cat-con-04",
-    "subCategory": "PNME/ANME Cutting Tips",
+    "applications": [
+      "Manual & Semi-Automatic Oxy-LPG Cutting",
+      "Profile Machine Cutting"
+    ],
     "brand": "WELDOR",
-    "modelNumber": "WEL-NOZ-PNME",
-    "tagline": "Precision CNC milled copper outer shell with brass spline inner for Oxy-LPG cutting.",
-    "description": "Weldor PNME cutting nozzles feature a precision CNC-machined solid copper outer sheath and an extruded brass inner core with micro-splined preheat orifices. This design produces uniform, high-temperature preheat flames and an ultra-narrow high-pressure cutting oxygen stream.",
     "bulletPoints": [
       "Two-piece design optimized for Oxy-LPG and Propane fuel gases.",
       "Outer nozzle made from pure deoxidized copper for maximum spatter repellence.",
@@ -912,19 +918,50 @@
       "Available in 6 sizes: 1/32\" (3-6mm), 3/64\" (5-12mm), 1/16\" (10-75mm), 5/64\" (70-100mm), 3/32\" (90-150mm), 1/8\" (150-300mm).",
       "100% flame tested for zero leakage and uniform flame cone."
     ],
+    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "category": "Welding & Cutting Consumables",
+    "categoryId": "cat-con-04",
+    "certifications": [
+      "ISO 9001:2015",
+      "ISI 7653"
+    ],
+    "createdAt": "2026-09-30T16:35:36.230Z",
+    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
+    "description": "Weldor PNME cutting nozzles feature a precision CNC-machined solid copper outer sheath and an extruded brass inner core with micro-splined preheat orifices. This design produces uniform, high-temperature preheat flames and an ultra-narrow high-pressure cutting oxygen stream.",
+    "featured": true,
+    "gallery": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+    "images": [
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
+      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
+    ],
+    "inStock": true,
     "industries": [
       "Shipbuilding Yards",
       "Steel Service Centers",
       "Bridge & Heavy Fabrication"
     ],
-    "applications": [
-      "Manual & Semi-Automatic Oxy-LPG Cutting",
-      "Profile Machine Cutting"
-    ],
     "materials": [
       "Electrolytic Tough Pitch Copper",
       "Free-Cutting Brass IS 319"
     ],
+    "minOrderQty": 10,
+    "modelNumber": "WEL-NOZ-PNME",
+    "name": "PNME Two-Piece Cutting Nozzles (Sizes 1/32\" to 1/8\")",
+    "priceINR": 360,
+    "priceUSD": 4.5,
+    "seoKeywords": [
+      "PNME nozzle",
+      "LPG cutting tip",
+      "two piece cutting nozzle",
+      "gas cutting tip"
+    ],
+    "sku": "WLD-CON-PNME-TIP",
     "specifications": [
       {
         "label": "Available Sizes",
@@ -947,37 +984,11 @@
         "value": "1.5 - 2.5 Bar"
       }
     ],
-    "featured": true,
-    "image": "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-    "gallery": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ],
-    "catalogPdfUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "priceUSD": 4.5,
-    "priceINR": 360,
-    "certifications": [
-      "ISO 9001:2015",
-      "ISI 7653"
-    ],
-    "minOrderQty": 10,
     "standardLeadTimeDays": 1,
-    "inStock": true,
-    "seoKeywords": [
-      "PNME nozzle",
-      "LPG cutting tip",
-      "two piece cutting nozzle",
-      "gas cutting tip"
-    ],
     "status": "Active",
-    "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "updatedAt": "2026-09-30T15:00:15.440Z",
-    "images": [
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
-      "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
-    ]
+    "subCategory": "PNME/ANME Cutting Tips",
+    "tagline": "Precision CNC milled copper outer shell with brass spline inner for Oxy-LPG cutting.",
+    "updatedAt": "2026-09-30T17:35:47.324Z"
   },
   {
     "id": "prod-1790767459464",
@@ -1002,7 +1013,7 @@
     "certifications": [
       "ISO 9001:2015"
     ],
-    "createdAt": "2026-09-30T14:27:22.712Z",
+    "createdAt": "2026-09-30T16:35:36.761Z",
     "datasheetUrl": "",
     "description": "",
     "featured": true,
@@ -1043,7 +1054,7 @@
     "status": "Active",
     "subCategory": "erwerewrwer",
     "tagline": "",
-    "updatedAt": "2026-09-30T15:00:15.500Z",
+    "updatedAt": "2026-09-30T17:35:47.404Z",
     "videoThumbnail": "",
     "videoUrl": ""
   },
@@ -1061,7 +1072,7 @@
     "catalogPdfUrl": "/catalog/Weldor_Welding_Product_Catalog.pdf",
     "category": "Pneumatic Cylinders",
     "categoryId": "",
-    "createdAt": "2026-09-30T14:27:22.769Z",
+    "createdAt": "2026-09-30T16:35:37.540Z",
     "description": "",
     "featured": false,
     "gallery": [
@@ -1090,7 +1101,7 @@
     "status": "Active",
     "subCategory": "Standard Series",
     "tagline": "",
-    "updatedAt": "2026-09-30T15:00:15.555Z"
+    "updatedAt": "2026-09-30T17:35:47.450Z"
   },
   {
     "id": "prod_1",
@@ -1110,7 +1121,7 @@
     "catalogPdfUrl": "/catalog/Weldor_Welding_Product_Catalog.pdf",
     "category": "Pneumatic Cylinders",
     "categoryId": "cat_1",
-    "createdAt": "2026-09-30T14:27:22.828Z",
+    "createdAt": "2026-09-30T16:35:38.740Z",
     "description": "Standard double acting pneumatic cylinder with magnetic piston and adjustable end-position cushioning.",
     "featured": true,
     "gallery": [
@@ -1161,7 +1172,7 @@
     "status": "Active",
     "subCategory": "Standard Series",
     "tagline": "Engineered for High-Frequency Industrial Automation",
-    "updatedAt": "2026-09-30T15:00:15.613Z"
+    "updatedAt": "2026-09-30T17:35:47.519Z"
   },
   {
     "id": "prod_2",
@@ -1180,7 +1191,7 @@
     "catalogPdfUrl": "/catalog/Weldor_Welding_Product_Catalog.pdf",
     "category": "Hydraulic Valves",
     "categoryId": "cat_2",
-    "createdAt": "2026-09-30T14:27:22.894Z",
+    "createdAt": "2026-09-30T16:35:39.556Z",
     "description": "Zero-leakage solenoid operated directional spool valve designed for critical heavy machinery.",
     "featured": true,
     "gallery": [
@@ -1230,7 +1241,7 @@
     "status": "Active",
     "subCategory": "High-Pressure Series",
     "tagline": "Zero-Leakage 700 Bar Solenoid Control",
-    "updatedAt": "2026-09-30T15:00:15.660Z"
+    "updatedAt": "2026-09-30T17:35:47.559Z"
   },
   {
     "id": "prod_3",
@@ -1249,7 +1260,7 @@
     "catalogPdfUrl": "/catalog/Weldor_Welding_Product_Catalog.pdf",
     "category": "Robotic Welding Torches",
     "categoryId": "cat_3",
-    "createdAt": "2026-09-30T14:27:22.939Z",
+    "createdAt": "2026-09-30T16:35:40.083Z",
     "description": "High-amperage robotic MIG welding torch system engineered for continuous automated welding.",
     "featured": true,
     "gallery": [
@@ -1299,7 +1310,7 @@
     "status": "Active",
     "subCategory": "Water-Cooled Series",
     "tagline": "320A Continuous Duty Robotic Welding Torch",
-    "updatedAt": "2026-09-30T15:00:15.708Z"
+    "updatedAt": "2026-09-30T17:35:47.598Z"
   },
   {
     "id": "prod_4",
@@ -1318,7 +1329,7 @@
     "catalogPdfUrl": "/catalog/Weldor_Welding_Product_Catalog.pdf",
     "category": "CNC Precision Components",
     "categoryId": "cat_4",
-    "createdAt": "2026-09-30T14:27:23.004Z",
+    "createdAt": "2026-09-30T16:35:40.954Z",
     "description": "Custom engineered 5-axis CNC machined hydraulic manifold block manufactured from aerospace-grade Aluminum 7075-T6.",
     "featured": true,
     "gallery": [
@@ -1366,7 +1377,7 @@
     "status": "Active",
     "subCategory": "Custom Manifolds",
     "tagline": "Micron-Tolerance Aerospace Fluid Manifold",
-    "updatedAt": "2026-09-30T15:00:15.765Z"
+    "updatedAt": "2026-09-30T17:35:47.641Z"
   },
   {
     "id": "prod_5",
@@ -1385,7 +1396,7 @@
     "catalogPdfUrl": "/catalog/Weldor_Welding_Product_Catalog.pdf",
     "category": "Fire Hydrant Valves",
     "categoryId": "cat_5",
-    "createdAt": "2026-09-30T14:27:23.319Z",
+    "createdAt": "2026-09-30T16:35:41.422Z",
     "description": "Heavy-duty gunmetal / stainless steel oblique landing fire hydrant valve with instantaneous female outlet and flanged inlet.",
     "featured": true,
     "gallery": [
@@ -1433,7 +1444,7 @@
     "status": "Active",
     "subCategory": "Landing Valves",
     "tagline": "IS:5290 & BS:5041 Certified Fire Fighting Valve",
-    "updatedAt": "2026-09-30T15:00:15.820Z"
+    "updatedAt": "2026-09-30T17:35:47.690Z"
   },
   {
     "id": "prod-1790780388907",
@@ -1454,15 +1465,15 @@
     "catalogPdfUrl": "https://weldorindustries.com/catalogs/Weldor-Product-Catalog.pdf",
     "category": "Robotic Welding Automation Accessories",
     "categoryId": "cat_1790612577263",
-    "createdAt": "2026-09-30T14:59:48.918Z",
+    "createdAt": "2026-09-30T16:35:42.185Z",
     "description": "",
     "featured": true,
     "gallery": [
-      "/uploads/products/upload_1790780412328_742320.png"
+      "/uploads/products/upload_1790789742776_anime-girl-alone-clouds-sky-scenery-ai-art-4k-wallpaper-uhdpaper_com-739_1_l.jpg"
     ],
-    "image": "/uploads/products/upload_1790780412328_742320.png",
+    "image": "/uploads/products/upload_1790789742776_anime-girl-alone-clouds-sky-scenery-ai-art-4k-wallpaper-uhdpaper_com-739_1_l.jpg",
     "images": [
-      "/uploads/products/upload_1790780412328_742320.png"
+      "/uploads/products/upload_1790789742776_anime-girl-alone-clouds-sky-scenery-ai-art-4k-wallpaper-uhdpaper_com-739_1_l.jpg"
     ],
     "inStock": true,
     "industries": [
@@ -1485,40 +1496,22 @@
     "status": "Active",
     "subCategory": "sdasd",
     "tagline": "",
-    "updatedAt": "2026-09-30T15:00:15.873Z",
-    "cadDrawingUrl": "https://weldorindustries.com/drawings/Weldor-3D-CAD.step",
+    "updatedAt": "2026-09-30T17:35:47.765Z",
+    "cadDrawingUrl": "",
     "certifications": [
-      "ISO 9001:2015",
-      "CE Certified"
+      "ISO 9001:2015"
     ],
     "datasheetUrl": "",
-    "seoKeywords": [
-      "pneumatic cylinder",
-      "iso 15552 air actuator",
-      "heavy industrial valve",
-      "double acting ram"
-    ],
+    "seoKeywords": [],
     "seoMetaDescription": "",
     "seoMetaTitle": "",
     "specifications": [
       {
-        "label": "Max Operating Pressure",
-        "value": "10 Bar"
-      },
-      {
-        "label": "Operating Temperature",
-        "value": "-20°C to +80°C"
-      },
-      {
-        "label": "Bore Size Range",
-        "value": "32 mm – 320 mm"
-      },
-      {
-        "label": "Leakage Testing",
-        "value": "100% Nitrogen Bubble Tested"
+        "label": "Operating Pressure",
+        "value": "Standard Rating"
       }
     ],
     "videoThumbnail": "",
-    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+    "videoUrl": ""
   }
 ]

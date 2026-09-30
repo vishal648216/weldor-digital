@@ -1,3 +1,6 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import { ensureDbConnected } from './db.js';
 import { handleAuth } from './routes/auth.js';
 import { handleProducts } from './routes/products.js';
@@ -6,6 +9,31 @@ import { handleCrm } from './routes/crm.js';
 import { handleHrms } from './routes/hrms.js';
 import { handleSettings } from './routes/settings.js';
 import { handleUploadRequest } from './routes/upload.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Static MIME types for uploaded files
+const STATIC_MIME = {
+  '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg',
+  '.webp': 'image/webp', '.gif': 'image/gif', '.svg': 'image/svg+xml',
+  '.pdf': 'application/pdf', '.ico': 'image/x-icon'
+};
+
+// Serve uploaded static files (local dev only - dist/uploads/)
+const serveStaticFile = (filePath, res) => {
+  try {
+    if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
+      const ext = path.extname(filePath).toLowerCase();
+      const mime = STATIC_MIME[ext] || 'application/octet-stream';
+      const content = fs.readFileSync(filePath);
+      res.writeHead(200, { 'Content-Type': mime, 'Cache-Control': 'public, max-age=86400' });
+      res.end(content);
+      return true;
+    }
+  } catch (e) {}
+  return false;
+};
 
 // Parse query parameters
 const parseQuery = (url) => {
@@ -45,6 +73,17 @@ export default async function app(req, res) {
   const pathname = url.split('?')[0];
   const query = req.query || parseQuery(url);
   const method = req.method;
+
+  // Serve /uploads/* static files for local development
+  if (pathname.startsWith('/uploads/')) {
+    const relativePath = pathname.replace('/uploads/', '');
+    const distUploads = path.join(__dirname, '..', 'dist', 'uploads', relativePath);
+    const publicUploads = path.join(__dirname, '..', 'public', 'uploads', relativePath);
+    if (serveStaticFile(distUploads, res) || serveStaticFile(publicUploads, res)) return;
+    res.writeHead(404, { 'Content-Type': 'text/plain' });
+    res.end('File not found');
+    return;
+  }
 
   // Path parts normalization: always ['api', module, subRoute, ...]
   const rawParts = pathname.split('/').filter(Boolean);

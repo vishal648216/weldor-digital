@@ -161,6 +161,13 @@ export const CategoryManager: React.FC = () => {
     const file = e.target.files?.[0];
     if (!file) return;
     showNotification(`Uploading ${file.name}...`, 'info');
+    const readAsDataURL = (f: File): Promise<string> =>
+      new Promise(resolve => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result as string);
+        reader.onerror = () => resolve('');
+        reader.readAsDataURL(f);
+      });
     let uploadedUrl = '';
     try {
       const res = await api.uploadFile(file);
@@ -170,7 +177,7 @@ export const CategoryManager: React.FC = () => {
     } catch (err) {
       console.warn('Upload error:', err);
     }
-    const finalUrl = uploadedUrl || URL.createObjectURL(file);
+    const finalUrl = uploadedUrl || await readAsDataURL(file);
     setFormData(prev => ({ ...prev, [targetField]: finalUrl }));
     showNotification(`Uploaded ${targetField === 'image' ? 'Thumbnail' : 'Banner'} successfully!`, 'success');
   };

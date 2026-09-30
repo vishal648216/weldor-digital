@@ -3,7 +3,7 @@
     "id": "tria_1790612577254_mk4s",
     "companyName": "Bharat Dynamics Missile Systems",
     "contactPerson": "Dr. Vivek Saxena",
-    "createdAt": "2026-09-30T14:27:25.253Z",
+    "createdAt": "2026-09-30T16:35:46.531Z",
     "dutyCycleTested": "100% @ 500A (30 Minutes Continuous Arc)",
     "email": "v.saxena@bdl-india.com",
     "remarks": "Hydrostatic pressure burst test completed at 1050 Bar (1.5x safety factor). Approved for production.",
@@ -12,6 +12,6 @@
     "testPressureBar": 700,
     "trialCode": "WEL-TRL-2026-19",
     "trialProduct": "Robotic MIG Welding Torch 500A Liquid-Cooled",
-    "updatedAt": "2026-09-30T14:27:25.253Z"
+    "updatedAt": "2026-09-30T16:43:21.288Z"
   }
 ]

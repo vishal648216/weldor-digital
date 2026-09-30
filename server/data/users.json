@@ -1,38 +1,46 @@
 [
   {
     "id": "usr_admin_1",
-    "username": "admin",
+    "avatar": "/images/branding/weldor-logo.png",
+    "createdAt": "2026-09-30T16:35:46.581Z",
     "email": "admin@weldorindustries.com",
     "name": "Super Admin",
+    "password": "admin",
     "role": "Super Admin",
-    "avatar": "/images/branding/weldor-logo.png",
-    "password": "admin"
+    "updatedAt": "2026-09-30T16:43:21.452Z",
+    "username": "admin"
   },
   {
     "id": "usr_admin_vishal",
-    "username": "vishal",
+    "avatar": "/images/branding/weldor-logo.png",
+    "createdAt": "2026-09-30T16:35:46.664Z",
     "email": "vishal@gmail.com",
     "name": "Vishal (Super Admin)",
+    "password": "admin",
     "role": "Super Admin",
-    "avatar": "/images/branding/weldor-logo.png",
-    "password": "admin"
+    "updatedAt": "2026-09-30T16:43:21.508Z",
+    "username": "vishal"
   },
   {
     "id": "usr_admin_2",
-    "username": "admin@weldor.com",
+    "avatar": "/images/branding/weldor-logo.png",
+    "createdAt": "2026-09-30T16:35:46.734Z",
     "email": "admin@weldor.com",
     "name": "Super Admin",
+    "password": "admin",
     "role": "Super Admin",
-    "avatar": "/images/branding/weldor-logo.png",
-    "password": "admin"
+    "updatedAt": "2026-09-30T16:43:21.614Z",
+    "username": "admin@weldor.com"
   },
   {
     "id": "usr_sales_1",
-    "username": "sales",
+    "avatar": "/images/branding/weldor-logo.png",
+    "createdAt": "2026-09-30T16:35:46.784Z",
     "email": "sales@weldorindustries.com",
     "name": "Sales Manager",
+    "password": "sales",
     "role": "Sales Head",
-    "avatar": "/images/branding/weldor-logo.png",
-    "password": "sales"
+    "updatedAt": "2026-09-30T16:43:21.658Z",
+    "username": "sales"
   }
 ]

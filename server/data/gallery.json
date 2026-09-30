@@ -3,7 +3,7 @@
     "id": "gal_1",
     "caption": "Precision 5-axis DMG MORI CNC milling station achieving ±5 micron tolerances on aerospace fluid manifolds.",
     "category": "CNC Machining",
-    "createdAt": "2026-09-30T14:27:18.133Z",
+    "createdAt": "2026-09-30T16:35:30.770Z",
     "image": "/images/gallery/cnc-5axis-machining-bay.jpg",
     "tags": [
       "CNC Machining",
@@ -14,14 +14,14 @@
     "thumbnail": "/images/gallery/cnc-5axis-machining-bay.jpg",
     "title": "5-Axis High-Speed CNC Machining Center",
     "type": "Photo",
-    "updatedAt": "2026-09-30T14:27:18.133Z",
+    "updatedAt": "2026-09-30T16:43:13.770Z",
     "url": "/images/gallery/cnc-5axis-machining-bay.jpg"
   },
   {
     "id": "gal_2",
     "caption": "Continuous automated welding station with integrated dual-axis positioners and fume extraction.",
     "category": "Robotic Automation",
-    "createdAt": "2026-09-30T14:27:18.212Z",
+    "createdAt": "2026-09-30T16:35:30.811Z",
     "image": "/images/gallery/automated-welding-cell.jpg",
     "tags": [
       "Robotics",
@@ -32,14 +32,14 @@
     "thumbnail": "/images/gallery/automated-welding-cell.jpg",
     "title": "Automated Robotic MIG & TIG Welding Cell",
     "type": "Photo",
-    "updatedAt": "2026-09-30T14:27:18.212Z",
+    "updatedAt": "2026-09-30T16:43:13.834Z",
     "url": "/images/gallery/automated-welding-cell.jpg"
   },
   {
     "id": "gal_3",
     "caption": "100% factory proof pressure testing rig capable of certifying valves up to 1000 Bar with digital data logging.",
     "category": "Quality & Testing",
-    "createdAt": "2026-09-30T14:27:18.299Z",
+    "createdAt": "2026-09-30T16:35:30.850Z",
     "image": "/images/gallery/hydrostatic-test-rig.jpg",
     "tags": [
       "Testing Bay",
@@ -50,7 +50,7 @@
     "thumbnail": "/images/gallery/hydrostatic-test-rig.jpg",
     "title": "Hydrostatic & Pneumatic High-Pressure Testing Bay",
     "type": "Photo",
-    "updatedAt": "2026-09-30T14:27:18.299Z",
+    "updatedAt": "2026-09-30T16:43:13.890Z",
     "url": "/images/gallery/hydrostatic-test-rig.jpg"
   }
 ]

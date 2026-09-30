@@ -1,24 +1,14 @@
 [
   {
     "id": "emp-root-superadmin",
-    "createdAt": "2026-09-19T07:23:02.304Z",
-    "updatedAt": "2026-09-29T17:22:53.007Z",
-    "employeeId": "WEL-1001",
-    "employeeCode": "WLD-001",
-    "name": "Super Admin",
-    "fatherName": "",
-    "dateOfBirth": "1985-01-01",
-    "dateOfJoining": "2026-09-19",
-    "gender": "Male",
-    "employmentType": "Full-Time",
-    "designation": "Managing Director & Platform Administrator",
-    "department": "Executive Management",
-    "roleId": "role-super-admin",
-    "roleName": "Super Admin",
-    "reportingManager": "Board of Directors",
-    "email": "admin@weldorindustries.com",
-    "password": "Weldor@2026",
-    "phone": "+91 87800 98088",
+    "activeSessionToken": "weldor_sess_d4b58d37493569eeb578819c5e19cdc1473c215e7722b552_1790702572817",
+    "address": {
+      "currentAddress": "GIDC Industrial Area",
+      "city": "Rajkot",
+      "state": "Gujarat",
+      "pincode": "360021"
+    },
+    "avatarUrl": "",
     "bankDetails": {
       "bankName": "State Bank of India",
       "accountNumber": "30123456789",
@@ -26,6 +16,28 @@
       "branch": "Metoda GIDC, Rajkot",
       "accountType": "Salary"
     },
+    "createdAt": "2026-09-30T16:35:29.223Z",
+    "dateOfBirth": "1985-01-01",
+    "dateOfJoining": "2026-09-19",
+    "department": "Executive Management",
+    "designation": "Managing Director & Platform Administrator",
+    "email": "admin@weldorindustries.com",
+    "employeeCode": "WLD-001",
+    "employeeId": "WEL-1001",
+    "employmentType": "Full-Time",
+    "fatherName": "",
+    "gender": "Male",
+    "lastLoginAt": "2026-09-29T17:22:52.817Z",
+    "lastLoginDevice": "Google Chrome (Workstation)",
+    "name": "Super Admin",
+    "password": "Weldor@2026",
+    "phone": "+91 87800 98088",
+    "productCategories": [
+      "All"
+    ],
+    "reportingManager": "Board of Directors",
+    "roleId": "role-super-admin",
+    "roleName": "Super Admin",
     "salaryStructure": {
       "baseSalary": 100000,
       "hra": 40000,
@@ -37,28 +49,16 @@
       "netMonthlySalary": 158800,
       "annualCTC": 2376000
     },
+    "scope": "All",
+    "status": "Active",
     "territory": [
       "All"
     ],
-    "productCategories": [
-      "All"
-    ],
-    "scope": "All",
-    "status": "Active",
-    "avatarUrl": "",
-    "address": {
-      "currentAddress": "GIDC Industrial Area",
-      "city": "Rajkot",
-      "state": "Gujarat",
-      "pincode": "360021"
-    },
-    "activeSessionToken": "weldor_sess_d4b58d37493569eeb578819c5e19cdc1473c215e7722b552_1790702572817",
-    "lastLoginAt": "2026-09-29T17:22:52.817Z",
-    "lastLoginDevice": "Google Chrome (Workstation)"
+    "updatedAt": "2026-09-30T16:43:13.039Z"
   },
   {
     "id": "emp-vikram-mehta",
-    "createdAt": "2026-09-29T17:09:41.447Z",
+    "createdAt": "2026-09-30T16:35:29.311Z",
     "department": "Executive Management",
     "designation": "Managing Director & Platform Administrator",
     "email": "vikram.mehta@weldorindustries.com",
@@ -82,11 +82,11 @@
     },
     "scope": "All",
     "status": "Active",
-    "updatedAt": "2026-09-29T17:09:41.447Z"
+    "updatedAt": "2026-09-30T16:43:13.084Z"
   },
   {
     "id": "emp-rajesh-sharma",
-    "createdAt": "2026-09-29T17:09:41.703Z",
+    "createdAt": "2026-09-30T16:35:29.406Z",
     "department": "Manufacturing",
     "designation": "Head of Production & CNC Operations",
     "email": "rajesh.sharma@weldorindustries.com",
@@ -110,11 +110,11 @@
     },
     "scope": "Production",
     "status": "Active",
-    "updatedAt": "2026-09-29T17:09:41.703Z"
+    "updatedAt": "2026-09-30T16:43:13.134Z"
   },
   {
     "id": "emp-priya-patel",
-    "createdAt": "2026-09-29T17:09:41.770Z",
+    "createdAt": "2026-09-30T16:35:29.523Z",
     "department": "Global Sales",
     "designation": "Vice President - International B2B Sales",
     "email": "priya.patel@weldorindustries.com",
@@ -138,11 +138,11 @@
     },
     "scope": "Sales",
     "status": "Active",
-    "updatedAt": "2026-09-29T17:09:41.770Z"
+    "updatedAt": "2026-09-30T16:43:13.201Z"
   },
   {
     "id": "emp-amit-verma",
-    "createdAt": "2026-09-29T17:09:41.848Z",
+    "createdAt": "2026-09-30T16:35:29.790Z",
     "department": "Quality Assurance",
     "designation": "Chief Metallurgist & QC Inspector",
     "email": "amit.verma@weldorindustries.com",
@@ -166,78 +166,78 @@
     },
     "scope": "Quality",
     "status": "Active",
-    "updatedAt": "2026-09-29T17:09:41.848Z"
+    "updatedAt": "2026-09-30T16:43:13.268Z"
   },
   {
     "id": "emp_1790612577275_plqw",
     "avatarUrl": "/images/branding/weldor-logo.png",
-    "createdAt": "2026-09-30T14:27:17.369Z",
+    "createdAt": "2026-09-30T16:35:30.002Z",
     "department": "Engineering & CAD R&D",
     "designation": "Senior Fluid Dynamics Engineer",
     "email": "nitin.k@weldor.com",
     "name": "Nitin Kulkarni",
     "salary": 95000,
     "status": "Active",
-    "updatedAt": "2026-09-30T14:27:17.369Z"
+    "updatedAt": "2026-09-30T16:43:13.333Z"
   },
   {
     "id": "emp_1790612405766_29do",
     "avatarUrl": "/images/branding/weldor-logo.png",
-    "createdAt": "2026-09-30T14:27:17.447Z",
+    "createdAt": "2026-09-30T16:35:30.106Z",
     "department": "Production",
     "designation": "CNC Operator Lead",
     "email": "amit@weldor.com",
     "name": "Amit Trivedi",
     "salary": 65000,
     "status": "Active",
-    "updatedAt": "2026-09-30T14:27:17.447Z"
+    "updatedAt": "2026-09-30T16:43:13.404Z"
   },
   {
     "id": "emp_1790611704634_hzua",
     "avatarUrl": "/images/branding/weldor-logo.png",
-    "createdAt": "2026-09-30T14:27:17.524Z",
+    "createdAt": "2026-09-30T16:35:30.325Z",
     "department": "Production",
     "designation": "CNC Operator Lead",
     "email": "amit@weldor.com",
     "name": "Amit Trivedi",
     "salary": 65000,
     "status": "Active",
-    "updatedAt": "2026-09-30T14:27:17.524Z"
+    "updatedAt": "2026-09-30T16:43:13.444Z"
   },
   {
     "id": "emp_1790601145250_7p6x",
     "avatarUrl": "/images/branding/weldor-logo.png",
-    "createdAt": "2026-09-30T14:27:17.571Z",
+    "createdAt": "2026-09-30T16:35:30.518Z",
     "department": "Production",
     "designation": "CNC Operator Lead",
     "email": "amit@weldor.com",
     "name": "Amit Trivedi",
     "salary": 65000,
     "status": "Active",
-    "updatedAt": "2026-09-30T14:27:17.571Z"
+    "updatedAt": "2026-09-30T16:43:13.516Z"
   },
   {
     "id": "emp_1",
     "avatarUrl": "/images/branding/weldor-logo.png",
-    "createdAt": "2026-09-30T14:27:17.642Z",
+    "createdAt": "2026-09-30T16:35:30.572Z",
     "department": "Production",
     "designation": "Plant Head",
     "email": "rajesh@weldor.com",
     "name": "Rajesh Sharma",
     "salary": 120000,
     "status": "Active",
-    "updatedAt": "2026-09-30T14:27:17.642Z"
+    "updatedAt": "2026-09-30T16:43:13.573Z"
   },
   {
     "id": "emp_2",
     "avatarUrl": "/images/branding/weldor-logo.png",
-    "createdAt": "2026-09-30T14:27:17.723Z",
+    "createdAt": "2026-09-30T16:35:30.610Z",
     "department": "Quality Assurance",
     "designation": "Lead Quality Engineer",
     "email": "pooja@weldor.com",
     "name": "Pooja Patel",
     "salary": 85000,
     "status": "Active",
-    "updatedAt": "2026-09-30T14:27:17.723Z"
+    "updatedAt": "2026-09-30T16:43:13.645Z"
   }
 ]

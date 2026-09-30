@@ -322,6 +322,16 @@ export const ProductCatalogManager: React.FC = () => {
     if (!file) return;
 
     showNotification(`Uploading "${file.name}"...`, 'info');
+
+    // Helper: read file as base64 DataURL (always works, never breaks on refresh)
+    const readAsDataURL = (f: File): Promise<string> =>
+      new Promise(resolve => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result as string);
+        reader.onerror = () => resolve('');
+        reader.readAsDataURL(f);
+      });
+
     let uploadedUrl = '';
     try {
       const res = await api.uploadFile(file);
@@ -329,9 +339,11 @@ export const ProductCatalogManager: React.FC = () => {
         uploadedUrl = res.data.cdnUrl || res.data.url;
       }
     } catch (err) {
-      console.warn('Upload error, fallback:', err);
+      console.warn('Server upload failed, using base64 fallback:', err);
     }
-    const finalUrl = uploadedUrl || URL.createObjectURL(file);
+
+    // Use server URL if valid, else fall back to base64 DataURL (NOT blob: URL which breaks on save)
+    const finalUrl = uploadedUrl || await readAsDataURL(file);
 
     if (targetField === 'gallery') {
       setFormData(prev => ({ ...prev, gallery: [...prev.gallery, finalUrl] }));
