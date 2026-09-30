@@ -1,0 +1,56 @@
+[
+  {
+    "id": "gal_1",
+    "caption": "Precision 5-axis DMG MORI CNC milling station achieving ±5 micron tolerances on aerospace fluid manifolds.",
+    "category": "CNC Machining",
+    "createdAt": "2026-09-30T14:27:18.133Z",
+    "image": "/images/gallery/cnc-5axis-machining-bay.jpg",
+    "tags": [
+      "CNC Machining",
+      "5-Axis",
+      "Aerospace",
+      "Tolerances"
+    ],
+    "thumbnail": "/images/gallery/cnc-5axis-machining-bay.jpg",
+    "title": "5-Axis High-Speed CNC Machining Center",
+    "type": "Photo",
+    "updatedAt": "2026-09-30T14:27:18.133Z",
+    "url": "/images/gallery/cnc-5axis-machining-bay.jpg"
+  },
+  {
+    "id": "gal_2",
+    "caption": "Continuous automated welding station with integrated dual-axis positioners and fume extraction.",
+    "category": "Robotic Automation",
+    "createdAt": "2026-09-30T14:27:18.212Z",
+    "image": "/images/gallery/automated-welding-cell.jpg",
+    "tags": [
+      "Robotics",
+      "MIG/TIG",
+      "Automation",
+      "Welding Cell"
+    ],
+    "thumbnail": "/images/gallery/automated-welding-cell.jpg",
+    "title": "Automated Robotic MIG & TIG Welding Cell",
+    "type": "Photo",
+    "updatedAt": "2026-09-30T14:27:18.212Z",
+    "url": "/images/gallery/automated-welding-cell.jpg"
+  },
+  {
+    "id": "gal_3",
+    "caption": "100% factory proof pressure testing rig capable of certifying valves up to 1000 Bar with digital data logging.",
+    "category": "Quality & Testing",
+    "createdAt": "2026-09-30T14:27:18.299Z",
+    "image": "/images/gallery/hydrostatic-test-rig.jpg",
+    "tags": [
+      "Testing Bay",
+      "Hydrostatic",
+      "700 Bar",
+      "ISO 9001"
+    ],
+    "thumbnail": "/images/gallery/hydrostatic-test-rig.jpg",
+    "title": "Hydrostatic & Pneumatic High-Pressure Testing Bay",
+    "type": "Photo",
+    "updatedAt": "2026-09-30T14:27:18.299Z",
+    "url": "/images/gallery/hydrostatic-test-rig.jpg"
+  }
+]

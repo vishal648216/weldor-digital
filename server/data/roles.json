@@ -1,0 +1,459 @@
+[
+  {
+    "id": "role-super-admin",
+    "name": "Super Admin",
+    "description": "Full system access across public site, CMS, CRM, HRMS, Payroll, security, RBAC, and integrations.",
+    "isSystem": true,
+    "scope": "All",
+    "permissions": [
+      {
+        "module": "dashboard",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "assign",
+          "approve",
+          "export",
+          "publish"
+        ]
+      },
+      {
+        "module": "leads",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "assign",
+          "approve",
+          "export"
+        ]
+      },
+      {
+        "module": "rfqs",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "assign",
+          "approve",
+          "export"
+        ]
+      },
+      {
+        "module": "quotations",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "assign",
+          "approve",
+          "export"
+        ]
+      },
+      {
+        "module": "orders",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "assign",
+          "approve",
+          "export"
+        ]
+      },
+      {
+        "module": "employees",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "assign",
+          "approve",
+          "export"
+        ]
+      },
+      {
+        "module": "payroll",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "assign",
+          "approve",
+          "export"
+        ]
+      },
+      {
+        "module": "attendance",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "assign",
+          "approve",
+          "export"
+        ]
+      },
+      {
+        "module": "samples",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "assign",
+          "approve",
+          "export"
+        ]
+      },
+      {
+        "module": "trials",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "assign",
+          "approve",
+          "export"
+        ]
+      },
+      {
+        "module": "products",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "publish",
+          "export"
+        ]
+      },
+      {
+        "module": "cms",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "publish",
+          "export"
+        ]
+      },
+      {
+        "module": "exhibitions",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "publish",
+          "export"
+        ]
+      },
+      {
+        "module": "settings",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "approve",
+          "export"
+        ]
+      },
+      {
+        "module": "rbac",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "assign",
+          "approve"
+        ]
+      },
+      {
+        "module": "audit",
+        "actions": [
+          "view",
+          "export"
+        ]
+      }
+    ],
+    "createdAt": "2026-09-28T07:05:40.583Z",
+    "updatedAt": "2026-09-28T07:05:40.583Z"
+  },
+  {
+    "id": "role-sales-manager",
+    "name": "Sales Manager",
+    "description": "Manages team leads, quotation approvals, pipeline targets, and performance reports.",
+    "isSystem": false,
+    "scope": "Team",
+    "permissions": [
+      {
+        "module": "dashboard",
+        "actions": [
+          "view",
+          "export"
+        ]
+      },
+      {
+        "module": "leads",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "assign",
+          "export"
+        ]
+      },
+      {
+        "module": "rfqs",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "assign",
+          "export"
+        ]
+      },
+      {
+        "module": "quotations",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "approve",
+          "export"
+        ]
+      },
+      {
+        "module": "orders",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "approve",
+          "export"
+        ]
+      },
+      {
+        "module": "samples",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "approve"
+        ]
+      },
+      {
+        "module": "trials",
+        "actions": [
+          "view",
+          "create",
+          "edit"
+        ]
+      },
+      {
+        "module": "products",
+        "actions": [
+          "view"
+        ]
+      }
+    ],
+    "createdAt": "2026-09-28T07:05:40.583Z",
+    "updatedAt": "2026-09-28T07:05:40.583Z"
+  },
+  {
+    "id": "role-hr-manager",
+    "name": "HR & Payroll Manager",
+    "description": "Manages employee directory, biometric attendance, salary generation, and compliance.",
+    "isSystem": false,
+    "scope": "All",
+    "permissions": [
+      {
+        "module": "dashboard",
+        "actions": [
+          "view"
+        ]
+      },
+      {
+        "module": "employees",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete",
+          "approve",
+          "export"
+        ]
+      },
+      {
+        "module": "payroll",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "approve",
+          "export"
+        ]
+      },
+      {
+        "module": "attendance",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "approve",
+          "export"
+        ]
+      },
+      {
+        "module": "audit",
+        "actions": [
+          "view"
+        ]
+      }
+    ],
+    "createdAt": "2026-09-28T07:05:40.583Z",
+    "updatedAt": "2026-09-28T07:05:40.583Z"
+  },
+  {
+    "id": "role-sales-exec",
+    "name": "Sales Executive",
+    "description": "Assigned customer leads, client RFQs, and generating basic quotations.",
+    "isSystem": false,
+    "scope": "Assigned",
+    "permissions": [
+      {
+        "module": "dashboard",
+        "actions": [
+          "view"
+        ]
+      },
+      {
+        "module": "leads",
+        "actions": [
+          "view",
+          "create",
+          "edit"
+        ]
+      },
+      {
+        "module": "rfqs",
+        "actions": [
+          "view",
+          "create",
+          "edit"
+        ]
+      },
+      {
+        "module": "quotations",
+        "actions": [
+          "view",
+          "create",
+          "edit"
+        ]
+      },
+      {
+        "module": "samples",
+        "actions": [
+          "view",
+          "create"
+        ]
+      },
+      {
+        "module": "products",
+        "actions": [
+          "view"
+        ]
+      }
+    ],
+    "createdAt": "2026-09-28T07:05:40.583Z",
+    "updatedAt": "2026-09-28T07:05:40.583Z"
+  },
+  {
+    "id": "role-quality-inspector",
+    "name": "Quality Inspector & Lab Tech",
+    "description": "Executes technical trials, validates sample metallurgy tolerances and test certificates.",
+    "isSystem": false,
+    "scope": "Assigned",
+    "permissions": [
+      {
+        "module": "dashboard",
+        "actions": [
+          "view"
+        ]
+      },
+      {
+        "module": "samples",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "approve"
+        ]
+      },
+      {
+        "module": "trials",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "approve"
+        ]
+      },
+      {
+        "module": "products",
+        "actions": [
+          "view"
+        ]
+      }
+    ],
+    "createdAt": "2026-09-28T07:05:40.583Z",
+    "updatedAt": "2026-09-28T07:05:40.583Z"
+  },
+  {
+    "id": "role_admin",
+    "createdAt": "2026-09-30T14:27:24.722Z",
+    "name": "Super Admin",
+    "permissions": [
+      "all"
+    ],
+    "updatedAt": "2026-09-30T14:27:24.722Z"
+  },
+  {
+    "id": "role_sales",
+    "createdAt": "2026-09-30T14:27:24.776Z",
+    "name": "Sales Executive",
+    "permissions": [
+      "crm",
+      "leads",
+      "rfq",
+      "quotations"
+    ],
+    "updatedAt": "2026-09-30T14:27:24.776Z"
+  },
+  {
+    "id": "role_hr",
+    "createdAt": "2026-09-30T14:27:24.842Z",
+    "name": "HR Manager",
+    "permissions": [
+      "hrms",
+      "attendance",
+      "payroll",
+      "leaves"
+    ],
+    "updatedAt": "2026-09-30T14:27:24.842Z"
+  }
+]

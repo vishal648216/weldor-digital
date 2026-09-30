@@ -1,0 +1,15 @@
+[
+  {
+    "id": "lea_1790612577283_lyho",
+    "createdAt": "2026-09-30T14:27:20.402Z",
+    "days": 4,
+    "employeeId": "emp_2",
+    "employeeName": "Pooja Patel",
+    "endDate": "2026-10-18",
+    "leaveType": "Earned Leave (EL)",
+    "reason": "Attending ASME International Quality Standards Workshop",
+    "startDate": "2026-10-15",
+    "status": "Approved",
+    "updatedAt": "2026-09-30T14:27:20.402Z"
+  }
+]

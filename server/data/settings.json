@@ -1,0 +1,42 @@
+{
+  "id": "settings-main",
+  "companyName": "Weldor by Earth Metal Industries",
+  "brandName": "WELDOR",
+  "legalName": "Earth Metal Industries",
+  "cinNumber": "U29299GJ2005PTC045890",
+  "gstin": "24AAACW1234F1Z5",
+  "panNumber": "AAACW1234F",
+  "iecCode": "0812345678",
+  "msmeRegistrationNo": "UDYAM-GJ-15-0012345",
+  "registeredOfficeAddress": {
+    "addressLine1": "Plot No. 588, Phase 2, GIDC Industrial Estate",
+    "addressLine2": "Dared",
+    "city": "Jamnagar",
+    "state": "Gujarat",
+    "country": "India",
+    "pincode": "361004"
+  },
+  "primaryEmail": "director@weldorindustries.com",
+  "primaryPhone": "+91-98250-11223",
+  "websiteUrl": "https://weldorindustries.com",
+  "bankAccounts": [],
+  "primaryBank": {
+    "bankName": "HDFC Bank Ltd",
+    "accountName": "Earth Metal Industries",
+    "accountNumber": "50200012345678",
+    "ifscCode": "HDFC0001234",
+    "branch": "Dared GIDC, Jamnagar"
+  },
+  "slaSettings": {
+    "leadResponseHours": 2,
+    "quoteApprovalThresholdUSD": 50000,
+    "autoAssignSalesLead": true,
+    "enableWhatsAppNotifications": true,
+    "enablePayrollReminderDays": 5
+  },
+  "createdAt": "2026-09-28T07:05:41.181Z",
+  "updatedAt": "2026-09-30T14:27:25.163Z",
+  "faviconUrl": "/images/branding/favicon.svg",
+  "isoCertified": true,
+  "logoUrl": "/images/branding/weldor-logo.png"
+}

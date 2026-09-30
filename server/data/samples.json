@@ -1,0 +1,19 @@
+[
+  {
+    "id": "samp_1790612577251_a2ck",
+    "companyName": "BHEL Power Sector Piping Division",
+    "contactPerson": "Sunil Chawla",
+    "courierPartner": "DTDC Priority Air Cargo",
+    "courierTrackingNo": "DTDC-AIR-774411",
+    "createdAt": "2026-09-30T14:27:24.996Z",
+    "email": "sunil.c@bhel.in",
+    "notes": "Sample evaluation for turbine gate actuation testing.",
+    "phone": "+91-98110-33445",
+    "productName": "Heavy Duty ISO 15552 Pneumatic Cylinder (Sample Unit)",
+    "quantityRequested": 2,
+    "sampleNumber": "WEL-SMP-2026-0042",
+    "stage": "Dispatched",
+    "status": "Active",
+    "updatedAt": "2026-09-30T14:27:24.996Z"
+  }
+]

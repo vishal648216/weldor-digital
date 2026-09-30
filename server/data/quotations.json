@@ -1,0 +1,81 @@
+[
+  {
+    "id": "quot_1790612577239_xj9v",
+    "buyer": {
+      "companyName": "Larsen & Toubro Heavy Engineering",
+      "contactName": "Mr. Arvind Swaminathan",
+      "designation": "General Manager - Procurement",
+      "billingAddress": "L&T Knowledge City, NH 8, Vadodara, Gujarat - 390019",
+      "shippingAddress": "L&T Manufacturing Complex, Hazira, Surat",
+      "gstin": "24AAACL0123F1Z8",
+      "pan": "AAACL0123F",
+      "state": "Gujarat",
+      "stateCode": "24",
+      "email": "arvind.s@larsentoubro.com",
+      "phone": "+91-98250-77889"
+    },
+    "cgstTotalUSD": 247.95,
+    "createdAt": "2026-09-30T14:27:23.952Z",
+    "freightCostUSD": 100,
+    "grandTotalINR": 289076,
+    "grandTotalUSD": 3400.9,
+    "gstRatePct": 18,
+    "items": [
+      {
+        "id": "item-1",
+        "productName": "700 Bar Solenoid Directional Hydraulic Valve",
+        "sku": "WHV-700-4WE",
+        "hsnCode": "84812000",
+        "quantity": 10,
+        "unit": "PCS",
+        "unitPriceUSD": 290,
+        "discountPct": 5,
+        "taxableAmountUSD": 2755,
+        "totalUSD": 3250.9
+      }
+    ],
+    "packagingCostUSD": 50,
+    "quotationNumber": "WEL-QT-2026-8841",
+    "sgstTotalUSD": 247.95,
+    "status": "Approved",
+    "subtotalUSD": 2900,
+    "taxType": "INTRA_STATE",
+    "taxableTotalUSD": 2755,
+    "totalTaxUSD": 495.9,
+    "updatedAt": "2026-09-30T14:27:23.952Z",
+    "validityDays": 30
+  },
+  {
+    "id": "quote-1790603965591",
+    "companyName": "abc",
+    "contactName": "vishal",
+    "createdAt": "2026-09-30T14:27:24.014Z",
+    "deliveryTerms": "Ex-Factory Weldor Plant / FOB",
+    "email": "vishal@gmail.com",
+    "freightCostUSD": 1500,
+    "grandTotalUSD": 57550,
+    "items": [
+      {
+        "id": "item-1790603965591",
+        "productId": "prod-spec-1790603965591",
+        "productName": "High Pressure Hydraulics (Standard Weldor Spec)",
+        "sku": "WEL-SPEC-01",
+        "quantity": 200,
+        "unitPriceUSD": 250,
+        "discountPercentage": 5,
+        "taxPercentage": 18,
+        "totalPriceUSD": 47500
+      }
+    ],
+    "leadId": "lead-1790603959993",
+    "paymentTerms": "30% Advance, 70% against Shipping Documents",
+    "quotationNumber": "WEL-QT-2026-3249",
+    "requiresApproval": true,
+    "status": "Pending Manager Approval",
+    "subtotalUSD": 50000,
+    "taxTotalUSD": 8550,
+    "totalDiscountUSD": 2500,
+    "updatedAt": "2026-09-30T14:27:24.014Z",
+    "validityDays": 30
+  }
+]

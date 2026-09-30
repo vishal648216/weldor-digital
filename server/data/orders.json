@@ -1,0 +1,19 @@
+[
+  {
+    "id": "orde_1790612577247_r86x",
+    "contactEmail": "arvind.s@larsentoubro.com",
+    "contactPhone": "+91-98250-77889",
+    "courierPartner": "BlueDart Apex Logistics",
+    "courierTrackingNo": "BD-EXP-88992211",
+    "createdAt": "2026-09-30T14:27:20.568Z",
+    "customerName": "Larsen & Toubro Heavy Engineering",
+    "estimatedDelivery": "2026-10-08",
+    "itemsCount": 10,
+    "orderNumber": "WEL-ORD-2026-5510",
+    "quotationNumber": "WEL-QT-2026-8841",
+    "stage": "In Production",
+    "status": "Confirmed",
+    "totalAmountUSD": 3400.9,
+    "updatedAt": "2026-09-30T14:27:20.568Z"
+  }
+]

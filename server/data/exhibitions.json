@@ -1,0 +1,54 @@
+[
+  {
+    "id": "exh_1",
+    "bannerImage": "/images/exhibitions/imtex-bangalore-2026.jpg",
+    "city": "Bengaluru",
+    "country": "India",
+    "createdAt": "2026-09-30T14:27:17.918Z",
+    "description": "Showcasing Weldor's flagship 700 Bar hydraulic directional valves and high-frequency pneumatic cylinders.",
+    "endDate": "2026-01-28",
+    "gallery": [
+      "/images/exhibitions/imtex-bangalore-2026.jpg",
+      "/images/exhibitions/booth-showcase-1.jpg"
+    ],
+    "image": "/images/exhibitions/imtex-bangalore-2026.jpg",
+    "slug": "imtex-2026-bangalore",
+    "stallNumber": "Hall 4, Stall B-112",
+    "startDate": "2026-01-22",
+    "status": "Upcoming",
+    "title": "IMTEX 2026 - International Machine Tool Exhibition",
+    "updatedAt": "2026-09-30T14:51:02.103Z",
+    "venue": "Bangalore International Exhibition Centre (BIEC)",
+    "coverImage": "/images/exhibitions/imtex-bangalore-2026.jpg",
+    "galleryImages": [
+      "/images/exhibitions/imtex-bangalore-2026.jpg",
+      "/images/exhibitions/booth-showcase-1.jpg"
+    ]
+  },
+  {
+    "id": "exh_2",
+    "bannerImage": "/images/exhibitions/weld-india-mumbai-2026.jpg",
+    "city": "Mumbai",
+    "country": "India",
+    "createdAt": "2026-09-30T14:27:17.972Z",
+    "description": "Live demonstration of robotic water-cooled MIG torches and heavy-duty gas flow regulators.",
+    "endDate": "2026-03-08",
+    "gallery": [
+      "/images/exhibitions/weld-india-mumbai-2026.jpg",
+      "/images/exhibitions/booth-showcase-1.jpg"
+    ],
+    "image": "/images/exhibitions/weld-india-mumbai-2026.jpg",
+    "slug": "weld-india-2026-mumbai",
+    "stallNumber": "Hall 1, Stall A-44",
+    "startDate": "2026-03-05",
+    "status": "Upcoming",
+    "title": "WELD INDIA 2026 Expo & Conference",
+    "updatedAt": "2026-09-30T14:51:02.186Z",
+    "venue": "Bombay Exhibition Centre (NESCO), Goregaon",
+    "coverImage": "/images/exhibitions/weld-india-mumbai-2026.jpg",
+    "galleryImages": [
+      "/images/exhibitions/weld-india-mumbai-2026.jpg",
+      "/images/exhibitions/booth-showcase-1.jpg"
+    ]
+  }
+]

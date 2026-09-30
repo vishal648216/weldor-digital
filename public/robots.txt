@@ -1,0 +1,7 @@
+# robots.txt for Weldor Digital Platform
+User-agent: *
+Allow: /
+Disallow: /crm/
+Disallow: /api/
+
+Sitemap: https://weldor-digital-platform.vercel.app/sitemap.xml

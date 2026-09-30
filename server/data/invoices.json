@@ -1,0 +1,67 @@
+[
+  {
+    "id": "invo_1790612577243_5c5q",
+    "buyer": {
+      "companyName": "Larsen & Toubro Heavy Engineering",
+      "contactName": "Mr. Arvind Swaminathan",
+      "billingAddress": "L&T Knowledge City, NH 8, Vadodara, Gujarat - 390019",
+      "shippingAddress": "L&T Manufacturing Complex, Hazira, Surat",
+      "gstin": "24AAACL0123F1Z8",
+      "pan": "AAACL0123F",
+      "state": "Gujarat",
+      "stateCode": "24",
+      "email": "arvind.s@larsentoubro.com",
+      "phone": "+91-98250-77889"
+    },
+    "cgstTotalUSD": 247.95,
+    "createdAt": "2026-09-30T14:27:18.466Z",
+    "deliveryTerms": "Ex-Works Jamnagar Factory (7-10 Business Days)",
+    "destination": "Hazira Works, Surat",
+    "dispatchThrough": "Dedicated Express Cargo Carrier",
+    "dueDate": "2026-10-28",
+    "freightCostUSD": 100,
+    "grandTotalINR": 289076,
+    "grandTotalUSD": 3400.9,
+    "gstRatePct": 18,
+    "invoiceNumber": "WEL-INV-2026-7492",
+    "issueDate": "2026-09-28",
+    "items": [
+      {
+        "id": "item-1",
+        "description": "700 Bar Solenoid Directional Hydraulic Valve (WHV-700-4WE)",
+        "sku": "WHV-700-4WE",
+        "hsnCode": "84812000",
+        "quantity": 10,
+        "unit": "PCS",
+        "unitPriceUSD": 290,
+        "discountPct": 5,
+        "taxableAmountUSD": 2755,
+        "totalUSD": 3250.9
+      }
+    ],
+    "packagingCostUSD": 50,
+    "paymentTerms": "50% Advance, Balance against Proforma Invoice",
+    "poDate": "2026-09-28",
+    "poNumber": "PO-LT-992410",
+    "quotationRef": "WEL-QT-2026-8841",
+    "sgstTotalUSD": 247.95,
+    "status": "Dispatched",
+    "subtotalUSD": 2900,
+    "taxType": "INTRA_STATE",
+    "taxableTotalUSD": 2755,
+    "totalDiscountUSD": 145,
+    "totalTaxUSD": 495.9,
+    "updatedAt": "2026-09-30T14:27:18.466Z"
+  },
+  {
+    "id": "invo_1790612394078_9mkf",
+    "buyer": {
+      "companyName": "Tata Steel"
+    },
+    "createdAt": "2026-09-30T14:27:18.531Z",
+    "grandTotalUSD": 2450,
+    "invoiceNumber": "WEL-INV-2026-9999",
+    "status": "Active",
+    "updatedAt": "2026-09-30T14:27:18.531Z"
+  }
+]

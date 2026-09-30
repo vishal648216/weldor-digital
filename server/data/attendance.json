@@ -1,0 +1,13 @@
+[
+  {
+    "id": "att_1790612577280_3pmk",
+    "createdAt": "2026-09-28T16:22:57.280Z",
+    "status": "Present",
+    "employeeId": "emp_1",
+    "employeeName": "Rajesh Sharma",
+    "date": "2026-09-28",
+    "checkIn": "08:55",
+    "checkOut": "18:10",
+    "shift": "Morning General (09:00 - 18:00)"
+  }
+]
