@@ -50,8 +50,9 @@ export const ensureDbConnected = async () => {
   mongoConnectingPromise = (async () => {
     try {
       await mongoose.connect(uri, {
-        serverSelectionTimeoutMS: 8000,
-        connectTimeoutMS: 10000,
+        serverSelectionTimeoutMS: 2500,
+        connectTimeoutMS: 3000,
+        bufferCommands: false,
       });
       isMongoConnected = true;
       console.log('🍃 MongoDB Atlas Connected Successfully!');

@@ -92,7 +92,7 @@
     "cadDrawingUrl": "",
     "seoMetaDescription": "",
     "seoMetaTitle": "",
-    "updatedAt": "2026-09-30T14:59:48.983Z",
+    "updatedAt": "2026-09-30T15:00:14.817Z",
     "videoThumbnail": "",
     "videoUrl": "",
     "images": [
@@ -188,7 +188,7 @@
       "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
       "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
     ],
-    "updatedAt": "2026-09-30T14:59:49.038Z"
+    "updatedAt": "2026-09-30T15:00:14.914Z"
   },
   {
     "id": "prod-weldor-03",
@@ -271,7 +271,7 @@
     "cadDrawingUrl": "",
     "seoMetaDescription": "",
     "seoMetaTitle": "",
-    "updatedAt": "2026-09-30T14:59:49.091Z",
+    "updatedAt": "2026-09-30T15:00:14.969Z",
     "videoThumbnail": "",
     "videoUrl": "",
     "images": [
@@ -361,7 +361,7 @@
     "cadDrawingUrl": "",
     "seoMetaDescription": "",
     "seoMetaTitle": "",
-    "updatedAt": "2026-09-30T14:59:49.147Z",
+    "updatedAt": "2026-09-30T15:00:15.025Z",
     "videoThumbnail": "",
     "videoUrl": "",
     "images": [
@@ -450,7 +450,7 @@
     "cadDrawingUrl": "",
     "seoMetaDescription": "",
     "seoMetaTitle": "",
-    "updatedAt": "2026-09-30T14:59:49.197Z",
+    "updatedAt": "2026-09-30T15:00:15.081Z",
     "videoThumbnail": "",
     "videoUrl": "",
     "images": [
@@ -538,7 +538,7 @@
     "cadDrawingUrl": "",
     "seoMetaDescription": "",
     "seoMetaTitle": "",
-    "updatedAt": "2026-09-30T14:59:49.250Z",
+    "updatedAt": "2026-09-30T15:00:15.144Z",
     "videoThumbnail": "",
     "videoUrl": "",
     "images": [
@@ -626,7 +626,7 @@
     "cadDrawingUrl": "",
     "seoMetaDescription": "",
     "seoMetaTitle": "",
-    "updatedAt": "2026-09-30T14:59:49.315Z",
+    "updatedAt": "2026-09-30T15:00:15.209Z",
     "videoThumbnail": "",
     "videoUrl": "",
     "images": [
@@ -719,7 +719,7 @@
       "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
       "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
     ],
-    "updatedAt": "2026-09-30T14:59:49.367Z"
+    "updatedAt": "2026-09-30T15:00:15.265Z"
   },
   {
     "id": "prod-weldor-10",
@@ -806,7 +806,7 @@
       "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
       "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
     ],
-    "updatedAt": "2026-09-30T14:59:49.440Z"
+    "updatedAt": "2026-09-30T15:00:15.325Z"
   },
   {
     "id": "prod-weldor-11",
@@ -892,7 +892,7 @@
       "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
       "/images/products/pneumatic-cylinders/iso-15552-main.jpg"
     ],
-    "updatedAt": "2026-09-30T14:59:49.499Z"
+    "updatedAt": "2026-09-30T15:00:15.378Z"
   },
   {
     "id": "prod-weldor-12",
@@ -972,7 +972,7 @@
     ],
     "status": "Active",
     "datasheetUrl": "/catalog/Weldor_Welding_Catalog_CDN.pdf",
-    "updatedAt": "2026-09-30T14:59:49.550Z",
+    "updatedAt": "2026-09-30T15:00:15.440Z",
     "images": [
       "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
       "/images/products/pneumatic-cylinders/iso-15552-main.jpg",
@@ -1043,7 +1043,7 @@
     "status": "Active",
     "subCategory": "erwerewrwer",
     "tagline": "",
-    "updatedAt": "2026-09-30T14:59:49.607Z",
+    "updatedAt": "2026-09-30T15:00:15.500Z",
     "videoThumbnail": "",
     "videoUrl": ""
   },
@@ -1090,7 +1090,7 @@
     "status": "Active",
     "subCategory": "Standard Series",
     "tagline": "",
-    "updatedAt": "2026-09-30T14:59:49.665Z"
+    "updatedAt": "2026-09-30T15:00:15.555Z"
   },
   {
     "id": "prod_1",
@@ -1161,7 +1161,7 @@
     "status": "Active",
     "subCategory": "Standard Series",
     "tagline": "Engineered for High-Frequency Industrial Automation",
-    "updatedAt": "2026-09-30T14:59:49.712Z"
+    "updatedAt": "2026-09-30T15:00:15.613Z"
   },
   {
     "id": "prod_2",
@@ -1230,7 +1230,7 @@
     "status": "Active",
     "subCategory": "High-Pressure Series",
     "tagline": "Zero-Leakage 700 Bar Solenoid Control",
-    "updatedAt": "2026-09-30T14:59:49.764Z"
+    "updatedAt": "2026-09-30T15:00:15.660Z"
   },
   {
     "id": "prod_3",
@@ -1299,7 +1299,7 @@
     "status": "Active",
     "subCategory": "Water-Cooled Series",
     "tagline": "320A Continuous Duty Robotic Welding Torch",
-    "updatedAt": "2026-09-30T14:59:49.811Z"
+    "updatedAt": "2026-09-30T15:00:15.708Z"
   },
   {
     "id": "prod_4",
@@ -1366,7 +1366,7 @@
     "status": "Active",
     "subCategory": "Custom Manifolds",
     "tagline": "Micron-Tolerance Aerospace Fluid Manifold",
-    "updatedAt": "2026-09-30T14:59:49.866Z"
+    "updatedAt": "2026-09-30T15:00:15.765Z"
   },
   {
     "id": "prod_5",
@@ -1433,7 +1433,7 @@
     "status": "Active",
     "subCategory": "Landing Valves",
     "tagline": "IS:5290 & BS:5041 Certified Fire Fighting Valve",
-    "updatedAt": "2026-09-30T14:59:49.904Z"
+    "updatedAt": "2026-09-30T15:00:15.820Z"
   },
   {
     "id": "prod-1790780388907",
@@ -1458,13 +1458,11 @@
     "description": "",
     "featured": true,
     "gallery": [
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&q=80&w=800"
+      "/uploads/products/upload_1790780412328_742320.png"
     ],
-    "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&q=80&w=800",
+    "image": "/uploads/products/upload_1790780412328_742320.png",
     "images": [
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&q=80&w=800"
+      "/uploads/products/upload_1790780412328_742320.png"
     ],
     "inStock": true,
     "industries": [
@@ -1487,6 +1485,40 @@
     "status": "Active",
     "subCategory": "sdasd",
     "tagline": "",
-    "updatedAt": "2026-09-30T14:59:48.918Z"
+    "updatedAt": "2026-09-30T15:00:15.873Z",
+    "cadDrawingUrl": "https://weldorindustries.com/drawings/Weldor-3D-CAD.step",
+    "certifications": [
+      "ISO 9001:2015",
+      "CE Certified"
+    ],
+    "datasheetUrl": "",
+    "seoKeywords": [
+      "pneumatic cylinder",
+      "iso 15552 air actuator",
+      "heavy industrial valve",
+      "double acting ram"
+    ],
+    "seoMetaDescription": "",
+    "seoMetaTitle": "",
+    "specifications": [
+      {
+        "label": "Max Operating Pressure",
+        "value": "10 Bar"
+      },
+      {
+        "label": "Operating Temperature",
+        "value": "-20°C to +80°C"
+      },
+      {
+        "label": "Bore Size Range",
+        "value": "32 mm – 320 mm"
+      },
+      {
+        "label": "Leakage Testing",
+        "value": "100% Nitrogen Bubble Tested"
+      }
+    ],
+    "videoThumbnail": "",
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
   }
 ]

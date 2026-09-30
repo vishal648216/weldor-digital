@@ -139,11 +139,23 @@ export default async function app(req, res) {
       };
     }
 
-    res.writeHead(result.statusCode || 200, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify(result.body));
+    const statusCode = result.statusCode || 200;
+    if (typeof res.status === 'function' && typeof res.json === 'function') {
+      res.status(statusCode).json(result.body);
+    } else {
+      res.setHeader('Content-Type', 'application/json');
+      res.writeHead(statusCode);
+      res.end(JSON.stringify(result.body));
+    }
   } catch (error) {
     console.error('Server execution error:', error);
-    res.writeHead(500, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify({ success: false, message: 'Internal Server Error', error: error?.message || 'Unknown error' }));
+    const errorBody = { success: false, message: 'Internal Server Error', error: error?.message || 'Unknown error' };
+    if (typeof res.status === 'function' && typeof res.json === 'function') {
+      res.status(500).json(errorBody);
+    } else {
+      res.setHeader('Content-Type', 'application/json');
+      res.writeHead(500);
+      res.end(JSON.stringify(errorBody));
+    }
   }
 }
