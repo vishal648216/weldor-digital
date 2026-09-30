@@ -49,11 +49,13 @@ export const LoginPage: React.FC = () => {
       {/* Top Bar */}
       <header className="px-6 py-4 flex items-center justify-between border-b border-slate-800/80 bg-slate-900/60 backdrop-blur-md relative z-10">
         <div className="flex items-center gap-3">
-          <img 
-            src="/weldor-logo.png" 
-            alt="Weldor by Earth Metal Industries" 
-            className="h-8 sm:h-9 w-auto object-contain brightness-110" 
-          />
+          <div className="bg-white px-2.5 py-1 rounded-lg shadow-sm border border-slate-700/50 inline-flex items-center justify-center">
+            <img 
+              src="/weldor-logo.png" 
+              alt="Weldor by Earth Metal Industries" 
+              className="h-7 w-auto object-contain" 
+            />
+          </div>
           <div className="border-l border-slate-700 pl-3">
             <h1 className="text-xs sm:text-sm font-extrabold tracking-tight text-white flex items-center gap-2">
               <span>EARTH METAL INDUSTRIES</span>
@@ -83,11 +85,13 @@ export const LoginPage: React.FC = () => {
           {/* Card Header */}
           <div className="text-center space-y-2">
             <div className="mb-3 flex justify-center">
-              <img 
-                src="/weldor-logo.png" 
-                alt="Weldor" 
-                className="h-10 w-auto object-contain mx-auto brightness-110" 
-              />
+              <div className="bg-white px-3 py-1.5 rounded-xl shadow-md border border-slate-700/50 inline-flex items-center justify-center">
+                <img 
+                  src="/weldor-logo.png" 
+                  alt="Weldor" 
+                  className="h-9 w-auto object-contain mx-auto" 
+                />
+              </div>
             </div>
             <h2 className="text-2xl font-extrabold tracking-tight text-white">
               Sign In to Workspace
