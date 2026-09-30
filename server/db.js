@@ -23,11 +23,15 @@ const findDataDir = () => {
 
 const DATA_DIR = findDataDir();
 
+// Silently try to create data directory - may fail on Vercel's read-only fs (that's OK, SEED_DATA is the fallback)
 try {
   if (!fs.existsSync(DATA_DIR)) {
     fs.mkdirSync(DATA_DIR, { recursive: true });
   }
-} catch (e) {}
+} catch (e) {
+  // Read-only filesystem in serverless - in-memory SEED_DATA fallback will be used
+}
+
 
 let isMongoConnected = false;
 let mongoConnectingPromise = null;

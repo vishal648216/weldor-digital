@@ -6,17 +6,29 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const UPLOADS_DIR = path.join(__dirname, '..', '..', 'dist', 'uploads');
 
-// Ensure subdirectories exist
+// Subdirectory names for upload categories
 const subdirs = ['products', 'gallery', 'banners', 'documents'];
-if (!fs.existsSync(UPLOADS_DIR)) {
-  fs.mkdirSync(UPLOADS_DIR, { recursive: true });
-}
-for (const sub of subdirs) {
-  const p = path.join(UPLOADS_DIR, sub);
-  if (!fs.existsSync(p)) {
-    fs.mkdirSync(p, { recursive: true });
+
+// Lazy-init upload directories only when a request needs them (not at module load)
+// This prevents Vercel FUNCTION_INVOCATION_FAILED from top-level fs calls
+let uploadsInitialized = false;
+const ensureUploadDirs = () => {
+  if (uploadsInitialized) return;
+  try {
+    if (!fs.existsSync(UPLOADS_DIR)) {
+      fs.mkdirSync(UPLOADS_DIR, { recursive: true });
+    }
+    for (const sub of subdirs) {
+      const p = path.join(UPLOADS_DIR, sub);
+      if (!fs.existsSync(p)) {
+        fs.mkdirSync(p, { recursive: true });
+      }
+    }
+    uploadsInitialized = true;
+  } catch (e) {
+    // Silently ignore on serverless environments (read-only fs)
   }
-}
+};
 
 // Helper to extract file parts from raw multipart buffer
 function parseMultipartBuffer(buffer, boundary) {
@@ -73,6 +85,9 @@ function parseMultipartBuffer(buffer, boundary) {
 
 export const handleUploadRequest = async (req, res, method, pathParts, rawBuffer) => {
   if (method === 'POST') {
+    // Initialize upload directories lazily (not at module load time)
+    ensureUploadDirs();
+
     const isBulk = pathParts[2] === 'bulk';
     // Determine folder from path: /api/upload/products, /api/upload/gallery, etc.
     let folder = 'products';
@@ -86,6 +101,7 @@ export const handleUploadRequest = async (req, res, method, pathParts, rawBuffer
 
     try {
       const contentType = req.headers['content-type'] || '';
+
       let savedFiles = [];
 
       if (contentType.includes('multipart/form-data')) {
