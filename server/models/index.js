@@ -16,6 +16,7 @@ const createFlexibleSchema = () => {
   return schema;
 };
 
+export const UserModel = mongoose.models.User || mongoose.model('User', createFlexibleSchema(), 'users');
 export const ProductModel = mongoose.models.Product || mongoose.model('Product', createFlexibleSchema(), 'products');
 export const CategoryModel = mongoose.models.Category || mongoose.model('Category', createFlexibleSchema(), 'categories');
 export const LeadModel = mongoose.models.Lead || mongoose.model('Lead', createFlexibleSchema(), 'leads');
@@ -37,6 +38,7 @@ export const SettingModel = mongoose.models.Setting || mongoose.model('Setting',
 export const AuditLogModel = mongoose.models.AuditLog || mongoose.model('AuditLog', createFlexibleSchema(), 'auditlogs');
 
 export const COLLECTION_MODELS = {
+  users: UserModel,
   products: ProductModel,
   categories: CategoryModel,
   leads: LeadModel,

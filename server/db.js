@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { COLLECTION_MODELS } from './models/index.js';
+import { SEED_DATA } from './data_bundle.js';
 
 dotenv.config();
 
@@ -74,23 +75,27 @@ ensureDbConnected().catch(() => {});
 const readFromFile = (collectionName) => {
   const norm = normalizeKey(collectionName);
   const filePath = path.join(DATA_DIR, `${norm}.json`);
-  if (!fs.existsSync(filePath)) {
-    // Try without norm
-    const directPath = path.join(DATA_DIR, `${collectionName}.json`);
-    if (fs.existsSync(directPath)) {
-      try {
-        return JSON.parse(fs.readFileSync(directPath, 'utf8'));
-      } catch (e) {}
-    }
-    return collectionName === 'settings' ? {} : [];
+  if (fs.existsSync(filePath)) {
+    try {
+      const raw = fs.readFileSync(filePath, 'utf8');
+      if (raw.trim()) return JSON.parse(raw);
+    } catch (e) {}
   }
-  try {
-    const raw = fs.readFileSync(filePath, 'utf8');
-    if (!raw.trim()) return collectionName === 'settings' ? {} : [];
-    return JSON.parse(raw);
-  } catch (e) {
-    return collectionName === 'settings' ? {} : [];
+  const directPath = path.join(DATA_DIR, `${collectionName}.json`);
+  if (fs.existsSync(directPath)) {
+    try {
+      const raw = fs.readFileSync(directPath, 'utf8');
+      if (raw.trim()) return JSON.parse(raw);
+    } catch (e) {}
   }
+  // Safe in-memory seed data fallback for serverless
+  if (SEED_DATA && SEED_DATA[norm] !== undefined) {
+    return JSON.parse(JSON.stringify(SEED_DATA[norm]));
+  }
+  if (SEED_DATA && SEED_DATA[collectionName] !== undefined) {
+    return JSON.parse(JSON.stringify(SEED_DATA[collectionName]));
+  }
+  return collectionName === 'settings' ? {} : [];
 };
 
 const writeToFile = (collectionName, data) => {
