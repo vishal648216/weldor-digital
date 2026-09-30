@@ -42,7 +42,7 @@ const normalizeKey = (col) => {
 
 // Connect to MongoDB Atlas
 export const ensureDbConnected = async () => {
-  const uri = process.env.MONGODB_URI || 'mongodb+srv://weldoradmin:Weldor2026@cluster0.g4wl0mi.mongodb.net/weldor_industrial?retryWrites=true&w=majority';
+  const uri = process.env.MONGODB_URI || 'mongodb+srv://scre_admin:Scre%40123456@cluster0.fbbdcja.mongodb.net/weldor_industrial?retryWrites=true&w=majority&appName=Cluster0';
   if (!uri) return false;
   if (isMongoConnected && mongoose.connection.readyState === 1) return true;
   if (mongoConnectingPromise) return mongoConnectingPromise;
