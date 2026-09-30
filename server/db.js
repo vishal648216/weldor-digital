@@ -9,11 +9,24 @@ dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const DATA_DIR = path.join(__dirname, 'data');
 
-if (!fs.existsSync(DATA_DIR)) {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
-}
+const findDataDir = () => {
+  const dir1 = path.join(__dirname, 'data');
+  if (fs.existsSync(dir1)) return dir1;
+  const dir2 = path.join(process.cwd(), 'server', 'data');
+  if (fs.existsSync(dir2)) return dir2;
+  const dir3 = path.join(process.cwd(), 'data');
+  if (fs.existsSync(dir3)) return dir3;
+  return dir1;
+};
+
+const DATA_DIR = findDataDir();
+
+try {
+  if (!fs.existsSync(DATA_DIR)) {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+  }
+} catch (e) {}
 
 let isMongoConnected = false;
 let mongoConnectingPromise = null;

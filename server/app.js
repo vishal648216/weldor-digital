@@ -1,3 +1,4 @@
+import { ensureDbConnected } from './db.js';
 import { handleAuth } from './routes/auth.js';
 import { handleProducts } from './routes/products.js';
 import { handleCategories, handleBanners, handleGallery, handleExhibitions } from './routes/content.js';
@@ -20,7 +21,7 @@ const parseQuery = (url) => {
   return query;
 };
 
-// Main request dispatcher function
+// Main request dispatcher function (Supports standalone Node.js and Vercel Serverless)
 export default async function app(req, res) {
   // CORS Headers
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -33,25 +34,60 @@ export default async function app(req, res) {
     return;
   }
 
+  // Ensure Database connection is warm
+  try {
+    await ensureDbConnected();
+  } catch (e) {
+    console.warn('DB connect attempt notice:', e?.message);
+  }
+
   const url = req.url || '/';
   const pathname = url.split('?')[0];
-  const query = parseQuery(url);
+  const query = req.query || parseQuery(url);
   const method = req.method;
 
-  // Path parts: ['', 'api', 'products', ':id']
-  const pathParts = pathname.split('/').filter(Boolean);
+  // Path parts normalization: always ['api', module, subRoute, ...]
+  const rawParts = pathname.split('/').filter(Boolean);
+  const pathParts = (rawParts[0] === 'api') ? rawParts : ['api', ...rawParts];
+  const module = pathParts[1] || '';
 
-  // Read request body buffer for POST/PUT
+  // Read request body safely across Vercel serverless and raw Node HTTP
   let body = {};
   let rawBuffer = Buffer.alloc(0);
-  if (method === 'POST' || method === 'PUT') {
+
+  if (req.body !== undefined && req.body !== null) {
+    if (typeof req.body === 'object' && !Buffer.isBuffer(req.body)) {
+      body = req.body;
+      try {
+        rawBuffer = Buffer.from(JSON.stringify(req.body));
+      } catch (e) {}
+    } else if (Buffer.isBuffer(req.body)) {
+      rawBuffer = req.body;
+      try {
+        body = JSON.parse(rawBuffer.toString('utf8'));
+      } catch (e) {
+        body = { raw: rawBuffer.toString('utf8') };
+      }
+    } else if (typeof req.body === 'string') {
+      try {
+        body = JSON.parse(req.body);
+        rawBuffer = Buffer.from(req.body);
+      } catch (e) {
+        body = { raw: req.body };
+        rawBuffer = Buffer.from(req.body);
+      }
+    }
+  } else if (method === 'POST' || method === 'PUT') {
     try {
-      rawBuffer = await new Promise((resolve, reject) => {
-        const chunks = [];
-        req.on('data', chunk => chunks.push(chunk));
-        req.on('end', () => resolve(Buffer.concat(chunks)));
-        req.on('error', reject);
-      });
+      rawBuffer = await Promise.race([
+        new Promise((resolve, reject) => {
+          const chunks = [];
+          req.on('data', chunk => chunks.push(chunk));
+          req.on('end', () => resolve(Buffer.concat(chunks)));
+          req.on('error', reject);
+        }),
+        new Promise((resolve) => setTimeout(() => resolve(Buffer.alloc(0)), 1500))
+      ]);
 
       const contentType = req.headers['content-type'] || '';
       if (contentType.includes('application/json') || (!contentType.includes('multipart') && rawBuffer.length > 0)) {
@@ -69,9 +105,7 @@ export default async function app(req, res) {
   try {
     let result = { statusCode: 404, body: { success: false, message: 'API Route Not Found' } };
 
-    // Routing by prefix
-    const module = pathParts[1]; // /api/:module
-
+    // Routing by module
     if (module === 'auth') {
       result = await handleAuth(req, res, method, pathParts, body);
     } else if (module === 'products') {
@@ -92,7 +126,7 @@ export default async function app(req, res) {
       result = await handleSettings(req, res, method, pathParts, body);
     } else if (module === 'upload') {
       result = await handleUploadRequest(req, res, method, pathParts, rawBuffer);
-    } else if (pathname === '/api' || pathname === '/api/') {
+    } else if (!module || pathname === '/api' || pathname === '/api/' || pathname === '/') {
       result = {
         statusCode: 200,
         body: {
@@ -110,6 +144,6 @@ export default async function app(req, res) {
   } catch (error) {
     console.error('Server execution error:', error);
     res.writeHead(500, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify({ success: false, message: 'Internal Server Error', error: error.message }));
+    res.end(JSON.stringify({ success: false, message: 'Internal Server Error', error: error?.message || 'Unknown error' }));
   }
 }
